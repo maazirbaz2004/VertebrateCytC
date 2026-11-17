@@ -1,0 +1,76 @@
+project:
+  name: cytc-phylo
+  random_seed: 42
+  n_threads: 4            # adjust to the machine
+
+paths:
+  raw: data/raw
+  interim: data/interim
+  processed: data/processed
+  alignments: results/alignments
+  conservation: results/conservation
+  similarity: results/similarity
+  trees: results/trees
+  interpretation: results/interpretation
+  figures: results/figures
+  tables: results/tables
+  logs: logs
+  species_table: config/species.csv
+
+tools:
+  clustalo: clustalo
+  muscle: muscle
+  iqtree: iqtree3          # set to the detected binary in Task 0.6
+  fasttree: FastTree       # set to the detected binary in Task 0.6
+  trimal: trimal
+
+data_collection:           # Phase 1
+  uniprot_rest: "https://rest.uniprot.org/uniprotkb/search"
+  ncbi_email: "maazirbaz2004@gmail.com"   # NCBI requires an email for Entrez
+  prefer_reviewed: true
+  vertebrate_len_min: 100
+  vertebrate_len_max: 112
+  outgroup_len_min: 100
+  outgroup_len_max: 115
+  heme_motif_regex: "C..CH"    # CxxCH heme-binding motif
+  request_pause_sec: 0.5
+
+sequence_prep:             # Phase 2
+  allowed_alphabet: "ACDEFGHIKLMNPQRSTVWY"
+  max_ambiguous_fraction: 0.0   # no X/B/Z/U/J allowed in the final dataset
+
+alignment:                 # Phase 3
+  primary: clustalo        # clustalo | muscle
+  clustalo_extra: []
+  muscle_extra: []
+  trimal_mode: "-gt 0.8"   # only for the sensitivity analysis, not the primary result
+
+conservation:              # Phase 4
+  vertebrate_only_for_conservation: true
+  invariant_threshold: 1.0
+  high_threshold: 0.90
+  moderate_threshold: 0.70
+  smoothing_window: 5
+  min_region_length: 3
+  max_gap_fraction_per_column: 0.5
+
+similarity:                # Phase 5
+  gap_open: -10.0
+  gap_extend: -0.5
+  substitution_matrix: BLOSUM62
+
+phylogenetics:             # Phase 6
+  outgroups: [Saccharomyces_cerevisiae, Drosophila_melanogaster]
+  primary_root_outgroup: Saccharomyces_cerevisiae
+  bootstrap_replicates_nj: 1000
+  ufboot_replicates: 1000
+  alrt_replicates: 1000
+  model_selection: MFP       # ModelFinder Plus
+  fasttree_model_flags: "-lg -gamma"
+  support_threshold: 70      # report clades with >= this UFBoot support as "supported"
+
+reporting:                   # Phase 8
+  dpi: 300
+  figure_formats: [png, svg]
+  font_size: 10
+

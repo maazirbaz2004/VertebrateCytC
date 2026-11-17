@@ -1,0 +1,28 @@
+name: cytc
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - biopython>=1.83
+  - pandas
+  - numpy
+  - scipy
+  - matplotlib
+  - seaborn
+  - pyyaml
+  - requests
+  - dendropy
+  - jupyterlab
+  - pytest
+  - tqdm
+  # command-line bioinformatics tools
+  - clustalo          # Clustal Omega
+  - muscle>=5         # MUSCLE v5 (NOTE: CLI differs from v3, see Phase 3)
+  - iqtree            # IQ-TREE (binary may be `iqtree2` or `iqtree3`; detect at runtime)
+  - fasttree
+  - trimal
+  - pip
+  - pip:
+      - logomaker     # sequence logos
+
