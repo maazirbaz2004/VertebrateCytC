@@ -1,0 +1,18 @@
+species,common_name,taxon_id,group,role,approx_mya_from_human,uniprot_gene_hint,candidate_accession,notes
+Homo_sapiens,Human,9606,Primate,ingroup,0,CYCS,P99999,reference species for numbering
+Macaca_mulatta,Rhesus macaque,9544,Primate,ingroup,29,CYCS,P00002,closest relative to human in set
+Mus_musculus,House mouse,10090,Rodent,ingroup,90,Cycs,P62897,also has testis-specific Cyct: EXCLUDE paralog
+Rattus_norvegicus,Brown rat,10116,Rodent,ingroup,90,Cycs,P62898,also has testis-specific paralog: EXCLUDE
+Canis_lupus_familiaris,Dog,9615,Carnivore,ingroup,94,CYCS,P00011,
+Bos_taurus,Cattle,9913,Artiodactyl,ingroup,94,CYCS,P62894,classic cytochrome c species
+Equus_caballus,Horse,9796,Perissodactyl,ingroup,94,CYCS,P00004,historic reference for classical numbering
+Monodelphis_domestica,Gray short-tailed opossum,13616,Marsupial,ingroup,160,CYCS,A0A5F8HEK2,most divergent mammal here
+Gallus_gallus,Chicken,9031,Bird,ingroup,320,CYCS,P67881,
+Taeniopygia_guttata,Zebra finch,59729,Bird,ingroup,320,CYCS,B5FZX0,second bird (tests bird monophyly)
+Anolis_carolinensis,Green anole,28377,Reptile,ingroup,320,CYCS,A0A803TKE1,squamate reptile
+Chrysemys_picta,Painted turtle,8478,Reptile,ingroup,320,CYCS,A0A8C3PCA0,turtle (sister to birds+crocs molecularly)
+Xenopus_tropicalis,Western clawed frog,8364,Amphibian,ingroup,352,cycs,Q640U4,
+Danio_rerio,Zebrafish,7955,Fish,ingroup,430,cycs,Q6IQM2,teleost; check for multiple cycs paralogs
+Takifugu_rubripes,Torafugu,31033,Fish,ingroup,430,cycs,Q1KL06,"teleost, second fish"
+Drosophila_melanogaster,Fruit fly,7227,Insect,outgroup,780,Cyt-c-p,P84029,several paralogs: choose the main somatic one (Cyt-c-p)
+Saccharomyces_cerevisiae,Baker's yeast,559292,Fungus,outgroup,1100,CYC1,P00044,iso-1 cytochrome c; N-terminal extension

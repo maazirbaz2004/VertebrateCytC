@@ -1,0 +1,1028 @@
+{
+  "entryType": "UniProtKB unreviewed (TrEMBL)",
+  "primaryAccession": "A0A5F8HEK2",
+  "uniProtkbId": "A0A5F8HEK2_MONDO",
+  "entryAudit": {
+    "firstPublicDate": "2019-12-11",
+    "lastAnnotationUpdateDate": "2026-11-04",
+    "lastSequenceUpdateDate": "2019-12-11",
+    "entryVersion": 35,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 2.0,
+  "organism": {
+    "scientificName": "Monodelphis domestica",
+    "commonName": "Gray short-tailed opossum",
+    "taxonId": 13616,
+    "evidences": [
+      {
+        "evidenceCode": "ECO:0000313",
+        "source": "Ensembl",
+        "id": "ENSMODP00000058499.1"
+      },
+      {
+        "evidenceCode": "ECO:0000313",
+        "source": "Proteomes",
+        "id": "UP000002280"
+      }
+    ],
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Metatheria",
+      "Didelphimorphia",
+      "Didelphidae",
+      "Monodelphis"
+    ]
+  },
+  "proteinExistence": "3: Inferred from homology",
+  "proteinDescription": {
+    "submissionNames": [
+      {
+        "fullName": {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000313",
+              "source": "Ensembl",
+              "id": "ENSMODP00000058499.1"
+            }
+          ],
+          "value": "Cytochrome c, somatic"
+        }
+      }
+    ]
+  },
+  "genes": [
+    {
+      "geneName": {
+        "evidences": [
+          {
+            "evidenceCode": "ECO:0000313",
+            "source": "Ensembl",
+            "id": "ENSMODP00000058499.1"
+          }
+        ],
+        "value": "LOC100010620"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "ARBA",
+              "id": "ARBA00002555"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "RuleBase",
+              "id": "RU004427"
+            }
+          ],
+          "value": "Electron carrier protein. The oxidized form of the cytochrome c heme group can accept an electron from the heme group of the cytochrome c1 subunit of cytochrome reductase. Cytochrome c then transfers this electron to the cytochrome oxidase complex, the final protein carrier in the mitochondrial electron-transport chain"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "ARBA",
+              "id": "ARBA00025038"
+            }
+          ],
+          "value": "Plays a role in apoptosis. Suppression of the anti-apoptotic members or activation of the pro-apoptotic members of the Bcl-2 family leads to altered mitochondrial membrane permeability resulting in release of cytochrome c into the cytosol. Binding of cytochrome c to Apaf-1 triggers the activation of caspase-9, which then accelerates apoptosis by activating other caspases"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000256",
+                "source": "ARBA",
+                "id": "ARBA00004569"
+              }
+            ],
+            "value": "Mitochondrion intermembrane space",
+            "id": "SL-0169"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "RuleBase",
+              "id": "RU004427"
+            }
+          ],
+          "value": "Binds 1 heme group per subunit"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "ARBA",
+              "id": "ARBA00006488"
+            },
+            {
+              "evidenceCode": "ECO:0000256",
+              "source": "RuleBase",
+              "id": "RU004426"
+            }
+          ],
+          "value": "Belongs to the cytochrome c family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    }
+  ],
+  "features": [
+    {
+      "type": "Domain",
+      "location": {
+        "start": {
+          "value": 2,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 103,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytochrome c",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000259",
+          "source": "PROSITE",
+          "id": "PS51007"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "ARBA",
+          "id": "ARBA00022703"
+        }
+      ],
+      "id": "KW-0053",
+      "category": "Biological process",
+      "name": "Apoptosis"
+    },
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "ARBA",
+          "id": "ARBA00022982"
+        },
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "RuleBase",
+          "id": "RU004427"
+        }
+      ],
+      "id": "KW-0249",
+      "category": "Biological process",
+      "name": "Electron transport"
+    },
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "ARBA",
+          "id": "ARBA00022617"
+        },
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00433"
+        }
+      ],
+      "id": "KW-0349",
+      "category": "Ligand",
+      "name": "Heme"
+    },
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "ARBA",
+          "id": "ARBA00023004"
+        },
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00433"
+        }
+      ],
+      "id": "KW-0408",
+      "category": "Ligand",
+      "name": "Iron"
+    },
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "ARBA",
+          "id": "ARBA00022723"
+        },
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00433"
+        }
+      ],
+      "id": "KW-0479",
+      "category": "Ligand",
+      "name": "Metal-binding"
+    },
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "ARBA",
+          "id": "ARBA00023128"
+        },
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "RuleBase",
+          "id": "RU004427"
+        }
+      ],
+      "id": "KW-0496",
+      "category": "Cellular component",
+      "name": "Mitochondrion"
+    },
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000002280"
+        }
+      ],
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "ARBA",
+          "id": "ARBA00022660"
+        },
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "RuleBase",
+          "id": "RU004427"
+        }
+      ],
+      "id": "KW-0679",
+      "category": "Biological process",
+      "name": "Respiratory chain"
+    },
+    {
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "ARBA",
+          "id": "ARBA00022448"
+        },
+        {
+          "evidenceCode": "ECO:0000256",
+          "source": "RuleBase",
+          "id": "RU004427"
+        }
+      ],
+      "id": "KW-0813",
+      "category": "Biological process",
+      "name": "Transport"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "17495919",
+        "citationType": "journal article",
+        "authors": [
+          "Mikkelsen T.S.",
+          "Wakefield M.J.",
+          "Aken B.",
+          "Amemiya C.T.",
+          "Chang J.L.",
+          "Duke S.",
+          "Garber M.",
+          "Gentles A.J.",
+          "Goodstadt L.",
+          "Heger A.",
+          "Jurka J.",
+          "Kamal M.",
+          "Mauceli E.",
+          "Searle S.M.",
+          "Sharpe T.",
+          "Baker M.L.",
+          "Batzer M.A.",
+          "Benos P.V.",
+          "Belov K.",
+          "Clamp M.",
+          "Cook A.",
+          "Cuff J.",
+          "Das R.",
+          "Davidow L.",
+          "Deakin J.E.",
+          "Fazzari M.J.",
+          "Glass J.L.",
+          "Grabherr M.",
+          "Greally J.M.",
+          "Gu W.",
+          "Hore T.A.",
+          "Huttley G.A.",
+          "Kleber M.",
+          "Jirtle R.L.",
+          "Koina E.",
+          "Lee J.T.",
+          "Mahony S.",
+          "Marra M.A.",
+          "Miller R.D.",
+          "Nicholls R.D.",
+          "Oda M.",
+          "Papenfuss A.T.",
+          "Parra Z.E.",
+          "Pollock D.D.",
+          "Ray D.A.",
+          "Schein J.E.",
+          "Speed T.P.",
+          "Thompson K.",
+          "VandeBerg J.L.",
+          "Wade C.M.",
+          "Walker J.A.",
+          "Waters P.D.",
+          "Webber C.",
+          "Weidman J.R.",
+          "Xie X.",
+          "Zody M.C.",
+          "Baldwin J.",
+          "Abdouelleil A.",
+          "Abdulkadir J.",
+          "Abebe A.",
+          "Abera B.",
+          "Abreu J.",
+          "Acer S.C.",
+          "Aftuck L.",
+          "Alexander A.",
+          "An P.",
+          "Anderson E.",
+          "Anderson S.",
+          "Arachi H.",
+          "Azer M.",
+          "Bachantsang P.",
+          "Barry A.",
+          "Bayul T.",
+          "Berlin A.",
+          "Bessette D.",
+          "Bloom T.",
+          "Bloom T.",
+          "Boguslavskiy L.",
+          "Bonnet C.",
+          "Boukhgalter B.",
+          "Bourzgui I.",
+          "Brown A.",
+          "Cahill P.",
+          "Channer S.",
+          "Cheshatsang Y.",
+          "Chuda L.",
+          "Citroen M.",
+          "Collymore A.",
+          "Cooke P.",
+          "Costello M.",
+          "D'Aco K.",
+          "Daza R.",
+          "De Haan G.",
+          "DeGray S.",
+          "DeMaso C.",
+          "Dhargay N.",
+          "Dooley K.",
+          "Dooley E.",
+          "Doricent M.",
+          "Dorje P.",
+          "Dorjee K.",
+          "Dupes A.",
+          "Elong R.",
+          "Falk J.",
+          "Farina A.",
+          "Faro S.",
+          "Ferguson D.",
+          "Fisher S.",
+          "Foley C.D.",
+          "Franke A.",
+          "Friedrich D.",
+          "Gadbois L.",
+          "Gearin G.",
+          "Gearin C.R.",
+          "Giannoukos G.",
+          "Goode T.",
+          "Graham J.",
+          "Grandbois E.",
+          "Grewal S.",
+          "Gyaltsen K.",
+          "Hafez N.",
+          "Hagos B.",
+          "Hall J.",
+          "Henson C.",
+          "Hollinger A.",
+          "Honan T.",
+          "Huard M.D.",
+          "Hughes L.",
+          "Hurhula B.",
+          "Husby M.E.",
+          "Kamat A.",
+          "Kanga B.",
+          "Kashin S.",
+          "Khazanovich D.",
+          "Kisner P.",
+          "Lance K.",
+          "Lara M.",
+          "Lee W.",
+          "Lennon N.",
+          "Letendre F.",
+          "LeVine R.",
+          "Lipovsky A.",
+          "Liu X.",
+          "Liu J.",
+          "Liu S.",
+          "Lokyitsang T.",
+          "Lokyitsang Y.",
+          "Lubonja R.",
+          "Lui A.",
+          "MacDonald P.",
+          "Magnisalis V.",
+          "Maru K.",
+          "Matthews C.",
+          "McCusker W.",
+          "McDonough S.",
+          "Mehta T.",
+          "Meldrim J.",
+          "Meneus L.",
+          "Mihai O.",
+          "Mihalev A.",
+          "Mihova T.",
+          "Mittelman R.",
+          "Mlenga V.",
+          "Montmayeur A.",
+          "Mulrain L.",
+          "Navidi A.",
+          "Naylor J.",
+          "Negash T.",
+          "Nguyen T.",
+          "Nguyen N.",
+          "Nicol R.",
+          "Norbu C.",
+          "Norbu N.",
+          "Novod N.",
+          "O'Neill B.",
+          "Osman S.",
+          "Markiewicz E.",
+          "Oyono O.L.",
+          "Patti C.",
+          "Phunkhang P.",
+          "Pierre F.",
+          "Priest M.",
+          "Raghuraman S.",
+          "Rege F.",
+          "Reyes R.",
+          "Rise C.",
+          "Rogov P.",
+          "Ross K.",
+          "Ryan E.",
+          "Settipalli S.",
+          "Shea T.",
+          "Sherpa N.",
+          "Shi L.",
+          "Shih D.",
+          "Sparrow T.",
+          "Spaulding J.",
+          "Stalker J.",
+          "Stange-Thomann N.",
+          "Stavropoulos S.",
+          "Stone C.",
+          "Strader C.",
+          "Tesfaye S.",
+          "Thomson T.",
+          "Thoulutsang Y.",
+          "Thoulutsang D.",
+          "Topham K.",
+          "Topping I.",
+          "Tsamla T.",
+          "Vassiliev H.",
+          "Vo A.",
+          "Wangchuk T.",
+          "Wangdi T.",
+          "Weiand M.",
+          "Wilkinson J.",
+          "Wilson A.",
+          "Yadav S.",
+          "Young G.",
+          "Yu Q.",
+          "Zembek L.",
+          "Zhong D.",
+          "Zimmer A.",
+          "Zwirko Z.",
+          "Jaffe D.B.",
+          "Alvarez P.",
+          "Brockman W.",
+          "Butler J.",
+          "Chin C.",
+          "Gnerre S.",
+          "MacCallum I.",
+          "Graves J.A.",
+          "Ponting C.P.",
+          "Breen M.",
+          "Samollow P.B.",
+          "Lander E.S.",
+          "Lindblad-Toh K."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "17495919"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/nature05805"
+          }
+        ],
+        "title": "Genome of the marsupial Monodelphis domestica reveals innovation in non-coding sequences.",
+        "publicationDate": "2007",
+        "journal": "Nature",
+        "firstPage": "167",
+        "lastPage": "177",
+        "volume": "447"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Ensembl",
+          "id": "ENSMODP00000058499.1"
+        },
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Proteomes",
+          "id": "UP000002280"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "CI-20IM2DDAQPFF7",
+        "citationType": "submission",
+        "authoringGroup": [
+          "Ensembl"
+        ],
+        "publicationDate": "JUL-2026",
+        "submissionDatabase": "UniProtKB"
+      },
+      "referencePositions": [
+        "IDENTIFICATION"
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000313",
+          "source": "Ensembl",
+          "id": "ENSMODP00000058499.1"
+        }
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "RefSeq",
+      "id": "XP_001363248.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "XM_001363211.3"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "XP_007505400.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "XM_007505338.3"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "A0A5F8HEK2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "A0A5F8HEK2",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "1893"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "13616.ENSMODP00000058499",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "13616-ENSMODP00000058499",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENSMODT00000017070.2",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSMODP00000058499.1"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSMODG00000013402.2"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "100010620",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "mdo:100010620",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "GeneTree",
+      "id": "ENSGT00390000009405",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "A0A5F8HEK2",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "ACHAIAY",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "9854531at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000002280",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 8"
+        }
+      ]
+    },
+    {
+      "database": "Bgee",
+      "id": "ENSMODG00000013402",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Expressed in skeletal muscle tissue and 20 other cell types or tissues"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0043293",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:apoptosome"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:Ensembl"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005758",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:mitochondrial intermembrane space"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005634",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:nucleus"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:Ensembl"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0009055",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:electron transfer activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0020037",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:heme binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:InterPro"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006123",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:mitochondrial electron transport, cytochrome c to oxygen"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006122",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:mitochondrial electron transport, ubiquinol to cytochrome c"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "1.10.760.10:FF:000008",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "1.10.760.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c-like domain"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR009056",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c-like_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036909",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c-like_dom_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002327",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c_1A/1B"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR11961",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTOCHROME C"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00034",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrom_C"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00604",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTCHRMECIAB"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF46626",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51007",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTC"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLNGLFGRKTGQAPGFSYTDANKSKGIIWSEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADLIAYLKKATNE",
+    "length": 105,
+    "molWeight": 11623,
+    "crc64": "7DEB8466F8DD6A08",
+    "md5": "FB1EDCC5503218A9F8A623A0F5A2D6C5"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 2,
+      "SUBCELLULAR LOCATION": 1,
+      "PTM": 1,
+      "SIMILARITY": 1
+    },
+    "countByFeatureType": {
+      "Domain": 1
+    },
+    "uniParcId": "UPI00005EB92D"
+  }
+}

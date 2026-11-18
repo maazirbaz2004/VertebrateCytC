@@ -1,0 +1,705 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "Q1KL06",
+  "uniProtkbId": "CYCA_TAKRU",
+  "entryAudit": {
+    "firstPublicDate": "2006-12-12",
+    "lastAnnotationUpdateDate": "2026-11-04",
+    "lastSequenceUpdateDate": "2006-05-30",
+    "entryVersion": 106,
+    "sequenceVersion": 1
+  },
+  "annotationScore": 2.0,
+  "organism": {
+    "scientificName": "Takifugu rubripes",
+    "commonName": "Japanese pufferfish",
+    "synonyms": [
+      "Fugu rubripes"
+    ],
+    "taxonId": 31033,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Actinopterygii",
+      "Neopterygii",
+      "Teleostei",
+      "Neoteleostei",
+      "Acanthomorphata",
+      "Eupercaria",
+      "Tetraodontiformes",
+      "Tetradontoidea",
+      "Tetraodontidae",
+      "Takifugu"
+    ]
+  },
+  "proteinExistence": "3: Inferred from homology",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "Cytochrome c-a"
+      }
+    }
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "cyc-a"
+      }
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "value": "Electron carrier protein. The oxidized form of the cytochrome c heme group can accept an electron from the heme group of the cytochrome c1 subunit of cytochrome reductase. Cytochrome c then transfers this electron to the cytochrome oxidase complex, the final protein carrier in the mitochondrial electron-transport chain (By similarity)"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "note": {
+        "texts": [
+          {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250"
+              }
+            ],
+            "value": "Loosely associated with the inner membrane"
+          }
+        ]
+      },
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000250"
+              }
+            ],
+            "value": "Mitochondrion intermembrane space",
+            "id": "SL-0169"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "value": "Binds 1 heme c group covalently per subunit"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the cytochrome c family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    },
+    {
+      "commentType": "WEB RESOURCE",
+      "resourceName": "Protein Spotlight",
+      "resourceUrl": "https://www.proteinspotlight.org/back_issues/076",
+      "ftp": false,
+      "note": "Life shuttle - Issue 76 of November 2006"
+    }
+  ],
+  "features": [
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 105,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytochrome c-a",
+      "featureId": "PRO_0000266003"
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 15,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 15,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "covalent",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00433"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 18,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 18,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "covalent",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00433"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 19,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 19,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "axial binding residue",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        },
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:18248"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00433"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      },
+      "ligandPart": {
+        "name": "Fe",
+        "id": "ChEBI:CHEBI:18248"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 81,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 81,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "axial binding residue",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        },
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:18248"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00433"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      },
+      "ligandPart": {
+        "name": "Fe",
+        "id": "ChEBI:CHEBI:18248"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0249",
+      "category": "Biological process",
+      "name": "Electron transport"
+    },
+    {
+      "id": "KW-0349",
+      "category": "Ligand",
+      "name": "Heme"
+    },
+    {
+      "id": "KW-0408",
+      "category": "Ligand",
+      "name": "Iron"
+    },
+    {
+      "id": "KW-0479",
+      "category": "Ligand",
+      "name": "Metal-binding"
+    },
+    {
+      "id": "KW-0496",
+      "category": "Cellular component",
+      "name": "Mitochondrion"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0679",
+      "category": "Biological process",
+      "name": "Respiratory chain"
+    },
+    {
+      "id": "KW-0813",
+      "category": "Biological process",
+      "name": "Transport"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "16636282",
+        "citationType": "journal article",
+        "authors": [
+          "Lee A.P.",
+          "Koh E.G.L.",
+          "Tay A.",
+          "Brenner S.",
+          "Venkatesh B."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "16636282"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1073/pnas.0601492103"
+          }
+        ],
+        "title": "Highly conserved syntenic blocks at the vertebrate Hox loci and conserved regulatory elements within and outside Hox gene clusters.",
+        "publicationDate": "2006",
+        "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+        "firstPage": "6994",
+        "lastPage": "6999",
+        "volume": "103"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA]"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "DQ481663",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ABF22388.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "Q1KL06",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "Q1KL06",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "31033.ENSTRUP00000054566",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENSTRUT00000054312.2",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSTRUP00000054566.1"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSTRUG00000024909.2"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "101067333",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "tru:101067333",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "KOG3453",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "GeneTree",
+      "id": "ENSGT00940000157883",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_060944_3_0_1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "Q1KL06",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "AHCHTVE",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "449280at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000005226",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 12"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005758",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:mitochondrial intermembrane space"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:UniProtKB-SubCell"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0009055",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:electron transfer activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:InterPro"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0020037",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:heme binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:InterPro"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "1.10.760.10:FF:000001",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c iso-1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "1.10.760.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c-like domain"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR009056",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c-like_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036909",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c-like_dom_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002327",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c_1A/1B"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR11961",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTOCHROME C"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00034",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrom_C"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00604",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTCHRMECIAB"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF46626",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51007",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTC"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MGDIAKGKKIFVQRCSQCHTVTKEGRHKVGPNLWGLFGRKTGQAEGYSYTQANIEKGITWDEETLNVYLQNPKKYIPGTKMNFAGIRKKRERLDIIAYIKEATSK",
+    "length": 105,
+    "molWeight": 11979,
+    "crc64": "663B1E8966A286D9",
+    "md5": "0D14E9DC82140C3B627D012A1E4A8CD4"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "PTM": 1,
+      "SIMILARITY": 1,
+      "WEB RESOURCE": 1
+    },
+    "countByFeatureType": {
+      "Chain": 1,
+      "Binding site": 4
+    },
+    "uniParcId": "UPI0000D71FF0"
+  }
+}

@@ -1,0 +1,2296 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "P00004",
+  "uniProtkbId": "CYC_HORSE",
+  "entryAudit": {
+    "firstPublicDate": "1986-07-21",
+    "lastAnnotationUpdateDate": "2026-11-04",
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 175,
+    "sequenceVersion": 2
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Equus caballus",
+    "commonName": "Horse",
+    "taxonId": 9796,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Laurasiatheria",
+      "Perissodactyla",
+      "Equidae",
+      "Equus"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "Cytochrome c"
+      }
+    }
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "CYCS"
+      },
+      "synonyms": [
+        {
+          "value": "CYC"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "value": "Electron carrier protein. The oxidized form of the cytochrome c heme group can accept an electron from the heme group of the cytochrome c1 subunit of cytochrome reductase. Cytochrome c then transfers this electron to the cytochrome oxidase complex, the final protein carrier in the mitochondrial electron-transport chain"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "value": "Plays a role in apoptosis. Suppression of the anti-apoptotic members or activation of the pro-apoptotic members of the Bcl-2 family leads to altered mitochondrial membrane permeability resulting in release of cytochrome c into the cytosol. Binding of cytochrome c to Apaf-1 triggers the activation of caspase-9, which then accelerates apoptosis by activating other caspases (By similarity)"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "INTERACTION",
+      "interactions": [
+        {
+          "interactantOne": {
+            "uniProtKBAccession": "P00004",
+            "intActId": "EBI-865260"
+          },
+          "interactantTwo": {
+            "uniProtKBAccession": "P00004",
+            "geneName": "CYCS",
+            "intActId": "EBI-865260"
+          },
+          "numberOfExperiments": 3,
+          "organismDiffer": false
+        }
+      ]
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "note": {
+        "texts": [
+          {
+            "value": "Loosely associated with the inner membrane"
+          }
+        ]
+      },
+      "subcellularLocations": [
+        {
+          "location": {
+            "value": "Mitochondrion intermembrane space",
+            "id": "SL-0169"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "value": "Binds 1 heme c group covalently per subunit"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "value": "Phosphorylation at Tyr-49 and Tyr-98 both reduce by half the turnover in the reaction with cytochrome c oxidase, down-regulating mitochondrial respiration"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "texts": [
+        {
+          "value": "Mules and hinnies are heterozygous, having equal amount of horse and donkey cytochromes c"
+        }
+      ],
+      "commentType": "MISCELLANEOUS"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the cytochrome c family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    },
+    {
+      "commentType": "WEB RESOURCE",
+      "resourceName": "Protein Spotlight",
+      "resourceUrl": "https://www.proteinspotlight.org/back_issues/076",
+      "ftp": false,
+      "note": "Life shuttle - Issue 76 of November 2006"
+    }
+  ],
+  "features": [
+    {
+      "type": "Initiator methionine",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 1,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Removed",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14469771"
+        }
+      ]
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 2,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 105,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytochrome c",
+      "featureId": "PRO_0000108217"
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 15,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 15,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "covalent",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 18,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 18,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "covalent",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 19,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 19,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "axial binding residue",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        },
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:18248"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000255",
+          "source": "PROSITE-ProRule",
+          "id": "PRU00433"
+        },
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "5545094"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      },
+      "ligandPart": {
+        "name": "Fe",
+        "id": "ChEBI:CHEBI:18248"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 81,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 81,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "axial binding residue",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        },
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:18248"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      },
+      "ligandPart": {
+        "name": "Fe",
+        "id": "ChEBI:CHEBI:18248"
+      }
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 2,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 2,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-acetylglycine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "14469771"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 49,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 49,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Phosphotyrosine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P62894"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 56,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 56,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N6-succinyllysine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P62897"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 73,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 73,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N6-acetyllysine; alternate",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P62897"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 73,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 73,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N6-succinyllysine; alternate",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P62897"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 98,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 98,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Phosphotyrosine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P62894"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 100,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 100,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N6-acetyllysine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P62897"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 4,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 14,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "6K9J"
+        }
+      ]
+    },
+    {
+      "type": "Turn",
+      "location": {
+        "start": {
+          "value": 15,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 18,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "6K9J"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 22,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 24,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "5IY5"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 28,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 30,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1U75"
+        }
+      ]
+    },
+    {
+      "type": "Turn",
+      "location": {
+        "start": {
+          "value": 34,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 37,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1OCD"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 39,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 42,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "5IY5"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 44,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 47,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1I5T"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 51,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 55,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "6K9J"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 62,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 70,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "6K9J"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 72,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 75,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "6K9J"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 76,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 78,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "2PCB"
+        }
+      ]
+    },
+    {
+      "type": "Beta strand",
+      "location": {
+        "start": {
+          "value": 86,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 88,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "1FI7"
+        }
+      ]
+    },
+    {
+      "type": "Helix",
+      "location": {
+        "start": {
+          "value": 89,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 102,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0007829",
+          "source": "PDB",
+          "id": "6K9J"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0002",
+      "category": "Technical term",
+      "name": "3D-structure"
+    },
+    {
+      "id": "KW-0007",
+      "category": "PTM",
+      "name": "Acetylation"
+    },
+    {
+      "id": "KW-0053",
+      "category": "Biological process",
+      "name": "Apoptosis"
+    },
+    {
+      "id": "KW-0903",
+      "category": "Technical term",
+      "name": "Direct protein sequencing"
+    },
+    {
+      "id": "KW-0249",
+      "category": "Biological process",
+      "name": "Electron transport"
+    },
+    {
+      "id": "KW-0349",
+      "category": "Ligand",
+      "name": "Heme"
+    },
+    {
+      "id": "KW-0408",
+      "category": "Ligand",
+      "name": "Iron"
+    },
+    {
+      "id": "KW-0479",
+      "category": "Ligand",
+      "name": "Metal-binding"
+    },
+    {
+      "id": "KW-0496",
+      "category": "Cellular component",
+      "name": "Mitochondrion"
+    },
+    {
+      "id": "KW-0597",
+      "category": "PTM",
+      "name": "Phosphoprotein"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0679",
+      "category": "Biological process",
+      "name": "Respiratory chain"
+    },
+    {
+      "id": "KW-0813",
+      "category": "Biological process",
+      "name": "Transport"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "14469771",
+        "citationType": "journal article",
+        "authors": [
+          "Margoliash E.",
+          "Smith E.L.",
+          "Kreil G.",
+          "Tuppy H."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "14469771"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1038/1921125a0"
+          }
+        ],
+        "title": "Amino-acid sequence of horse heart cytochrome c.",
+        "publicationDate": "1961",
+        "journal": "Nature",
+        "firstPage": "1125",
+        "lastPage": "1127",
+        "volume": "192"
+      },
+      "referencePositions": [
+        "PROTEIN SEQUENCE OF 2-105",
+        "ACETYLATION AT GLY-2"
+      ],
+      "referenceComments": [
+        {
+          "value": "Heart",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "5545094",
+        "citationType": "journal article",
+        "authors": [
+          "Dickerson R.E.",
+          "Takano T.",
+          "Eisenberg D.",
+          "Kallai O.B.",
+          "Samson L.",
+          "Cooper A.",
+          "Margoliash E."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "5545094"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0021-9258(19)77002-1"
+          }
+        ],
+        "title": "Ferricytochrome c. I. General features of the horse and bonito proteins at 2.8-A resolution.",
+        "publicationDate": "1971",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "1511",
+        "lastPage": "1535",
+        "volume": "246"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY"
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "2166170",
+        "citationType": "journal article",
+        "authors": [
+          "Bushnell G.W.",
+          "Louie G.V.",
+          "Brayer G.D."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "2166170"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/0022-2836(90)90200-6"
+          }
+        ],
+        "title": "High-resolution three-dimensional structure of horse heart cytochrome c.",
+        "publicationDate": "1990",
+        "journal": "J. Mol. Biol.",
+        "firstPage": "585",
+        "lastPage": "595",
+        "volume": "214"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY"
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "8591047",
+        "citationType": "journal article",
+        "authors": [
+          "Sanishvili R.",
+          "Volz K.W.",
+          "Westbrook E.M.",
+          "Margoliash E."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "8591047"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0969-2126(01)00205-2"
+          }
+        ],
+        "title": "The low ionic strength crystal structure of horse cytochrome c at 2.1-A resolution and comparison with its high ionic strength counterpart.",
+        "publicationDate": "1995",
+        "journal": "Structure",
+        "firstPage": "707",
+        "lastPage": "716",
+        "volume": "3"
+      },
+      "referencePositions": [
+        "X-RAY CRYSTALLOGRAPHY"
+      ]
+    },
+    {
+      "referenceNumber": 5,
+      "citation": {
+        "id": "2539855",
+        "citationType": "journal article",
+        "authors": [
+          "Feng Y.",
+          "Roder H.",
+          "Englander S.W.",
+          "Wand A.J.",
+          "di Stefano D.L."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "2539855"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1021/bi00427a027"
+          }
+        ],
+        "title": "Proton resonance assignments of horse ferricytochrome c.",
+        "publicationDate": "1989",
+        "journal": "Biochemistry",
+        "firstPage": "195",
+        "lastPage": "203",
+        "volume": "28"
+      },
+      "referencePositions": [
+        "STRUCTURE BY NMR"
+      ]
+    },
+    {
+      "referenceNumber": 6,
+      "citation": {
+        "id": "8823161",
+        "citationType": "journal article",
+        "authors": [
+          "Qi P.X.",
+          "Beckman R.A.",
+          "Wand A.J."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "8823161"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1021/bi961042w"
+          }
+        ],
+        "title": "Solution structure of horse heart ferricytochrome c and detection of redox-related structural changes by high-resolution 1H NMR.",
+        "publicationDate": "1996",
+        "journal": "Biochemistry",
+        "firstPage": "12275",
+        "lastPage": "12286",
+        "volume": "35"
+      },
+      "referencePositions": [
+        "STRUCTURE BY NMR"
+      ]
+    },
+    {
+      "referenceNumber": 7,
+      "citation": {
+        "id": "9245419",
+        "citationType": "journal article",
+        "authors": [
+          "Banci L.",
+          "Bertini I.",
+          "Gray H.B.",
+          "Luchinat C.",
+          "Reddig T.",
+          "Rosato A.",
+          "Turano P."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "9245419"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1021/bi970724w"
+          }
+        ],
+        "title": "Solution structure of oxidized horse heart cytochrome c.",
+        "publicationDate": "1997",
+        "journal": "Biochemistry",
+        "firstPage": "9867",
+        "lastPage": "9877",
+        "volume": "36"
+      },
+      "referencePositions": [
+        "STRUCTURE BY NMR"
+      ],
+      "referenceComments": [
+        {
+          "value": "Heart",
+          "type": "TISSUE"
+        }
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "PIR",
+      "id": "A00005",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CCHO"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_001157486.2",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_001164014.2"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "XP_005609231.2",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "XM_005609174.4"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1AKK",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "NMR"
+        },
+        {
+          "key": "Resolution",
+          "value": "-"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1CRC",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.08 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1FI7",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "NMR"
+        },
+        {
+          "key": "Resolution",
+          "value": "-"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1FI9",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "NMR"
+        },
+        {
+          "key": "Resolution",
+          "value": "-"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1GIW",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "NMR"
+        },
+        {
+          "key": "Resolution",
+          "value": "-"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1HRC",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.90 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1I5T",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "NMR"
+        },
+        {
+          "key": "Resolution",
+          "value": "-"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1LC1",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "NMR"
+        },
+        {
+          "key": "Resolution",
+          "value": "-"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1LC2",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "NMR"
+        },
+        {
+          "key": "Resolution",
+          "value": "-"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1M60",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "NMR"
+        },
+        {
+          "key": "Resolution",
+          "value": "-"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1OCD",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "NMR"
+        },
+        {
+          "key": "Resolution",
+          "value": "-"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1U75",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.55 A"
+        },
+        {
+          "key": "Chains",
+          "value": "B=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "1WEJ",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.80 A"
+        },
+        {
+          "key": "Chains",
+          "value": "F=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "2FRC",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "NMR"
+        },
+        {
+          "key": "Resolution",
+          "value": "-"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "2GIW",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "NMR"
+        },
+        {
+          "key": "Resolution",
+          "value": "-"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "2N3B",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "NMR"
+        },
+        {
+          "key": "Resolution",
+          "value": "-"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "2PCB",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.80 A"
+        },
+        {
+          "key": "Chains",
+          "value": "B=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3JBT",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "EM"
+        },
+        {
+          "key": "Resolution",
+          "value": "3.80 A"
+        },
+        {
+          "key": "Chains",
+          "value": "B/D/F/H/J/L/N=1-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3NBS",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.20 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B/C/D=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3NBT",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.10 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B/C/D/E/F=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3O1Y",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.75 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B/C=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3O20",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.90 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B/C=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3WC8",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.80 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "3WUI",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.80 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "4NFG",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.11 A"
+        },
+        {
+          "key": "Chains",
+          "value": "B=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "4RSZ",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.19 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A/B/C/D/E/F=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "5IY5",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.00 A"
+        },
+        {
+          "key": "Chains",
+          "value": "1/2=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "5WVE",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "EM"
+        },
+        {
+          "key": "Resolution",
+          "value": "4.40 A"
+        },
+        {
+          "key": "Chains",
+          "value": "B/D/F/H/J/L/N=1-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "5ZKV",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "NMR"
+        },
+        {
+          "key": "Resolution",
+          "value": "-"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "6K9I",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.80 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "6K9J",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "0.98 A"
+        },
+        {
+          "key": "Chains",
+          "value": "A=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "6SUV",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "2.50 A"
+        },
+        {
+          "key": "Chains",
+          "value": "AaA/BaB/CaC/DaD/EaE/FaF/GaG/HaH=2-105"
+        }
+      ]
+    },
+    {
+      "database": "PDB",
+      "id": "8ZXR",
+      "properties": [
+        {
+          "key": "Method",
+          "value": "X-ray"
+        },
+        {
+          "key": "Resolution",
+          "value": "1.60 A"
+        },
+        {
+          "key": "Chains",
+          "value": "B=12-22"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BMRB",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EMDB",
+      "id": "EMD-6480",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EMDB",
+      "id": "EMD-6481",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EMDB",
+      "id": "EMD-6690",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MDposit",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PCDDB",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SASBDB",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DIP",
+      "id": "DIP-36774N",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "1873"
+        }
+      ]
+    },
+    {
+      "database": "IntAct",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "9796.ENSECAP00000012031",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MoonProt",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CarbonylDB",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "iPTMnet",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "MetOSite",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "9796-ENSECAP00000012031",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PeptideAtlas",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "ABCD",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "antibodies",
+          "value": "7 sequenced antibodies"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "100053958",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "ecb:100053958",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CTD",
+      "id": "54205",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "AAHKDDY",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SABIO-RK",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EvolutionaryTrace",
+      "id": "P00004",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000002281",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Unplaced"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0070069",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:cytochrome complex"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:CAFA"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "4344990"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005829",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:cytosol"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "ISS:UniProtKB"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005758",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:mitochondrial intermembrane space"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0009055",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:electron transfer activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0020037",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:heme binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:CAFA"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "4344990"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0042802",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:identical protein binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IPI:IntAct"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000353",
+          "source": "PubMed",
+          "id": "20615990"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0008289",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:lipid binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:DisProt"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "23066867"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0097190",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:apoptotic signaling pathway"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:ARUK-UCL"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "12107093"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006123",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:mitochondrial electron transport, cytochrome c to oxygen"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006122",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:mitochondrial electron transport, ubiquinol to cytochrome c"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "DisProt",
+      "id": "DP00006",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "1.10.760.10:FF:000008",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "1.10.760.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c-like domain"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR009056",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c-like_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036909",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c-like_dom_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002327",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c_1A/1B"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR11961",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTOCHROME C"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00034",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrom_C"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00604",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTCHRMECIAB"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF46626",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51007",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTC"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGFTYTDANKNKGITWKEETLMEYLENPKKYIPGTKMIFAGIKKKTEREDLIAYLKKATNE",
+    "length": 105,
+    "molWeight": 11833,
+    "crc64": "659BA128E53C3868",
+    "md5": "24F146E0C1214A1B7635AD40492726E0"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 2,
+      "INTERACTION": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "PTM": 2,
+      "MISCELLANEOUS": 1,
+      "SIMILARITY": 1,
+      "WEB RESOURCE": 1
+    },
+    "countByFeatureType": {
+      "Initiator methionine": 1,
+      "Chain": 1,
+      "Binding site": 4,
+      "Modified residue": 7,
+      "Helix": 5,
+      "Turn": 2,
+      "Beta strand": 6
+    },
+    "uniParcId": "UPI0000ED90DB"
+  }
+}

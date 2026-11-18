@@ -1,0 +1,1171 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "P00011",
+  "uniProtkbId": "CYC_CANLF",
+  "entryAudit": {
+    "firstPublicDate": "1986-07-21",
+    "lastAnnotationUpdateDate": "2026-11-04",
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 174,
+    "sequenceVersion": 2
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Canis lupus familiaris",
+    "commonName": "Dog",
+    "synonyms": [
+      "Canis familiaris"
+    ],
+    "taxonId": 9615,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Chordata",
+      "Craniata",
+      "Vertebrata",
+      "Euteleostomi",
+      "Mammalia",
+      "Eutheria",
+      "Laurasiatheria",
+      "Carnivora",
+      "Caniformia",
+      "Canidae",
+      "Canis"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "Cytochrome c"
+      }
+    }
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "CYCS"
+      },
+      "synonyms": [
+        {
+          "value": "CYC"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "value": "Electron carrier protein. The oxidized form of the cytochrome c heme group can accept an electron from the heme group of the cytochrome c1 subunit of cytochrome reductase. Cytochrome c then transfers this electron to the cytochrome oxidase complex, the final protein carrier in the mitochondrial electron-transport chain"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "value": "Plays a role in apoptosis. Suppression of the anti-apoptotic members or activation of the pro-apoptotic members of the Bcl-2 family leads to altered mitochondrial membrane permeability resulting in release of cytochrome c into the cytosol. Binding of cytochrome c to Apaf-1 triggers the activation of caspase-9, which then accelerates apoptosis by activating other caspases (By similarity)"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "note": {
+        "texts": [
+          {
+            "value": "Loosely associated with the inner membrane"
+          }
+        ]
+      },
+      "subcellularLocations": [
+        {
+          "location": {
+            "value": "Mitochondrion intermembrane space",
+            "id": "SL-0169"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "value": "Binds 1 heme c group covalently per subunit"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000250"
+            }
+          ],
+          "value": "Phosphorylation at Tyr-49 and Tyr-98 both reduce by half the turnover in the reaction with cytochrome c oxidase, down-regulating mitochondrial respiration"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the cytochrome c family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    },
+    {
+      "commentType": "WEB RESOURCE",
+      "resourceName": "Protein Spotlight",
+      "resourceUrl": "https://www.proteinspotlight.org/back_issues/076",
+      "ftp": false,
+      "note": "Life shuttle - Issue 76 of November 2006"
+    }
+  ],
+  "features": [
+    {
+      "type": "Initiator methionine",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 1,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Removed",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "5846985"
+        }
+      ]
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 2,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 105,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytochrome c",
+      "featureId": "PRO_0000108211"
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 15,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 15,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "covalent",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 18,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 18,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "covalent",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 19,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 19,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "axial binding residue",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        },
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:18248"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      },
+      "ligandPart": {
+        "name": "Fe",
+        "id": "ChEBI:CHEBI:18248"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 81,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 81,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "axial binding residue",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        },
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:18248"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      },
+      "ligandPart": {
+        "name": "Fe",
+        "id": "ChEBI:CHEBI:18248"
+      }
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 2,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 2,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N-acetylglycine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "5846985"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 49,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 49,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Phosphotyrosine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P62894"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 56,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 56,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N6-succinyllysine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P62897"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 73,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 73,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N6-acetyllysine; alternate",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P62897"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 73,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 73,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N6-succinyllysine; alternate",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P62897"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 98,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 98,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Phosphotyrosine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P62894"
+        }
+      ]
+    },
+    {
+      "type": "Modified residue",
+      "location": {
+        "start": {
+          "value": 100,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 100,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "N6-acetyllysine",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "UniProtKB",
+          "id": "P62897"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0007",
+      "category": "PTM",
+      "name": "Acetylation"
+    },
+    {
+      "id": "KW-0053",
+      "category": "Biological process",
+      "name": "Apoptosis"
+    },
+    {
+      "id": "KW-0903",
+      "category": "Technical term",
+      "name": "Direct protein sequencing"
+    },
+    {
+      "id": "KW-0249",
+      "category": "Biological process",
+      "name": "Electron transport"
+    },
+    {
+      "id": "KW-0349",
+      "category": "Ligand",
+      "name": "Heme"
+    },
+    {
+      "id": "KW-0408",
+      "category": "Ligand",
+      "name": "Iron"
+    },
+    {
+      "id": "KW-0479",
+      "category": "Ligand",
+      "name": "Metal-binding"
+    },
+    {
+      "id": "KW-0496",
+      "category": "Cellular component",
+      "name": "Mitochondrion"
+    },
+    {
+      "id": "KW-0597",
+      "category": "PTM",
+      "name": "Phosphoprotein"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0679",
+      "category": "Biological process",
+      "name": "Respiratory chain"
+    },
+    {
+      "id": "KW-0813",
+      "category": "Biological process",
+      "name": "Transport"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "5846985",
+        "citationType": "journal article",
+        "authors": [
+          "McDowall M.A.",
+          "Smith E.L."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "5846985"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1016/s0021-9258(18)97002-x"
+          }
+        ],
+        "title": "Amino acid sequence of dog heart cytochrome c.",
+        "publicationDate": "1965",
+        "journal": "J. Biol. Chem.",
+        "firstPage": "4635",
+        "lastPage": "4647",
+        "volume": "240"
+      },
+      "referencePositions": [
+        "PROTEIN SEQUENCE OF 2-105",
+        "ACETYLATION AT GLY-2"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "PIR",
+      "id": "A00010",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CCDG"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_001183974.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_001197045.1"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "P00011",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "P00011",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "P00011",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "1812"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "9615.ENSCAFP00000004225",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "iPTMnet",
+      "id": "P00011",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SwissPalm",
+      "id": "P00011",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "9615-ENSCAFP00000004225",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENSCAFT00000097490",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSCAFP00000071485"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSCAFG00000057599"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENSCAFT00030009189",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSCAFP00030008057"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSCAFG00030004991"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENSCAFT00040015592",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSCAFP00040013514"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSCAFG00040008341"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENSCAFT00805019812",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSCAFP00805015624"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSCAFG00805010802"
+        }
+      ]
+    },
+    {
+      "database": "Ensembl",
+      "id": "ENSCAFT00845018890.1",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "ENSCAFP00845014758.1"
+        },
+        {
+          "key": "GeneId",
+          "value": "ENSCAFG00845010713.1"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "475258",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "cfa:475258",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CTD",
+      "id": "54205",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "HostDB:ENSCAFG00845010713",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "VGNC",
+      "id": "VGNC:50288",
+      "properties": [
+        {
+          "key": "GeneName",
+          "value": "CYCS"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "KOG3453",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "GeneTree",
+      "id": "ENSGT00390000009405",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_060944_3_0_1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "P00011",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "AAHKDDY",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "449280at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-CFA-111457",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Release of apoptotic factors from the mitochondria"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-CFA-111458",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Formation of apoptosome"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-CFA-111459",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Activation of caspases through apoptosome-mediated cleavage"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-CFA-3299685",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Detoxification of Reactive Oxygen Species"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-CFA-5620971",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Pyroptosis"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-CFA-5628897",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "TP53 Regulates Metabolic Genes"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-CFA-611105",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Respiratory electron transport"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-CFA-9627069",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Regulation of the apoptosome activity"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-CFA-9707564",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Cytoprotection by HMOX1"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000805418",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 14"
+        }
+      ]
+    },
+    {
+      "database": "Bgee",
+      "id": "ENSCAFG00000002856",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Expressed in cardiac muscle of left ventricle and 48 other cell types or tissues"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0043293",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:apoptosome"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:Ensembl"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005829",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:cytosol"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "ISS:UniProtKB"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005758",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:mitochondrial intermembrane space"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005634",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:nucleus"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:Ensembl"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0009055",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:electron transfer activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0020037",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:heme binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:InterPro"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006123",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:mitochondrial electron transport, cytochrome c to oxygen"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006122",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:mitochondrial electron transport, ubiquinol to cytochrome c"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "1.10.760.10:FF:000008",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "1.10.760.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c-like domain"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR009056",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c-like_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036909",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c-like_dom_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002327",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c_1A/1B"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR11961",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTOCHROME C"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00034",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrom_C"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00604",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTCHRMECIAB"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF46626",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51007",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTC"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAPGFSYTDANKNKGITWGEETLMEYLENPKKYIPGTKMIFAGIKKTGERADLIAYLKKATKE",
+    "length": 105,
+    "molWeight": 11633,
+    "crc64": "B9670628E8E00483",
+    "md5": "CA676F2796B798B419CAAB7F9ED53190"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 2,
+      "SUBCELLULAR LOCATION": 1,
+      "PTM": 2,
+      "SIMILARITY": 1,
+      "WEB RESOURCE": 1
+    },
+    "countByFeatureType": {
+      "Initiator methionine": 1,
+      "Chain": 1,
+      "Binding site": 4,
+      "Modified residue": 7
+    },
+    "uniParcId": "UPI00004A586F"
+  }
+}

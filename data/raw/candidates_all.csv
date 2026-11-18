@@ -1,0 +1,46 @@
+species,tier,accession,reviewed,organism,taxon_id,gene_names,protein_name,length,passed,failure_reasons
+Homo_sapiens,Tier1_accession,P99999,True,Homo sapiens,9606,CYCS,Cytochrome c,105,True,
+Macaca_mulatta,Tier2_gene_reviewed,P00002,True,Macaca mulatta,9544,CYCS,Cytochrome c,105,True,
+Mus_musculus,Tier1_accession,P62897,True,Mus musculus,10090,Cycs,"Cytochrome c, somatic",105,True,
+Rattus_norvegicus,Tier1_accession,P62898,True,Rattus norvegicus,10116,Cycs,"Cytochrome c, somatic",105,True,
+Canis_lupus_familiaris,Tier2_gene_reviewed,P00011,True,Canis lupus familiaris,9615,CYCS,Cytochrome c,105,True,
+Bos_taurus,Tier1_accession,P62894,True,Bos taurus,9913,CYCS,Cytochrome c,105,True,
+Equus_caballus,Tier1_accession,P00004,True,Equus caballus,9796,CYCS,Cytochrome c,105,True,
+Monodelphis_domestica,Tier3_name_all,F6WDG4,False,Monodelphis domestica,13616,,Cytochrome c oxidase subunit,112,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit'
+Monodelphis_domestica,Tier3_name_all,A0A5F8HEK2,False,Monodelphis domestica,13616,LOC100010620,"Cytochrome c, somatic",105,True,
+Monodelphis_domestica,Tier3_name_all,F7B3U4,False,Monodelphis domestica,13616,,"Cytochrome c oxidase subunit 7A2, mitochondrial",108,False,"no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit 7A2, mitochondrial'"
+Monodelphis_domestica,Tier3_name_all,K7E5S2,False,Monodelphis domestica,13616,LOC100026811,Cytochrome c domain-containing protein,104,True,
+Monodelphis_domestica,Tier3_name_all,F7FUM2,False,Monodelphis domestica,13616,,Cytochrome c oxidase assembly factor 3,108,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase assembly factor 3'
+Monodelphis_domestica,Tier3_name_all,F6RHS1,False,Monodelphis domestica,13616,,Ubiquinol-cytochrome C reductase hinge domain-containing protein,111,False,no CxxCH motif; bad protein name: 'Ubiquinol-cytochrome C reductase hinge domain-containing protein'
+Monodelphis_domestica,Tier3_name_all,H9H7F1,False,Monodelphis domestica,13616,,Ubiquinol-cytochrome c chaperone domain-containing protein,111,False,no CxxCH motif; bad protein name: 'Ubiquinol-cytochrome c chaperone domain-containing protein'
+Gallus_gallus,Tier1_accession,P67881,True,Gallus gallus,9031,CYC,Cytochrome c,105,True,
+Taeniopygia_guttata,Tier3_name_all,B5FZX0,False,Taeniopygia guttata,59729,,Cytochrome c,105,True,
+Taeniopygia_guttata,Tier3_name_all,B5KFT0,False,Taeniopygia guttata,59729,,Cytochrome c,105,True,
+Taeniopygia_guttata,Tier3_name_all,B5FZX1,False,Taeniopygia guttata,59729,,Cytochrome c,105,True,
+Taeniopygia_guttata,Tier3_name_all,B5G2H4,False,Taeniopygia guttata,59729,,Cytochrome c oxidase subunit,108,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit'
+Taeniopygia_guttata,Tier3_name_all,B5G2I5,False,Taeniopygia guttata,59729,,Cytochrome c oxidase subunit,108,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit'
+Taeniopygia_guttata,Tier3_name_all,B5G2I6,False,Taeniopygia guttata,59729,,Cytochrome c oxidase subunit,108,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit'
+Taeniopygia_guttata,Tier3_name_all,A0A674HRH5,False,Taeniopygia guttata,59729,GATC,Cytochrome c oxidase subunit,108,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit'
+Taeniopygia_guttata,Tier3_name_all,H0ZP77,False,Taeniopygia guttata,59729,COX6C,Cytochrome c oxidase subunit 6C,107,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit 6C'
+Taeniopygia_guttata,Tier3_name_all,A0A674HSR2,False,Taeniopygia guttata,59729,COX6B1,Cytochrome c oxidase subunit 6B1,111,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit 6B1'
+Taeniopygia_guttata,Tier3_name_all,H0YX31,False,Taeniopygia guttata,59729,,Cytochrome c oxidase assembly factor 3,107,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase assembly factor 3'
+Taeniopygia_guttata,Tier3_name_all,Q5IHX5,False,Taeniopygia guttata,59729,cytb,Cytochrome b,102,False,fragment flag present; no CxxCH motif; name lacks 'cytochrome c': 'Cytochrome b'
+Anolis_carolinensis,Tier3_name_all,A0A803TKE1,False,Anolis carolinensis,28377,LOC100560655,Cytochrome c domain-containing protein,105,True,
+Anolis_carolinensis,Tier3_name_all,R4GAF7,False,Anolis carolinensis,28377,LOC100559887,Cytochrome c domain-containing protein,105,True,
+Anolis_carolinensis,Tier3_name_all,A0A803SX29,False,Anolis carolinensis,28377,COX20,"Cytochrome c oxidase assembly protein COX20, mitochondrial",112,False,"no CxxCH motif; bad protein name: 'Cytochrome c oxidase assembly protein COX20, mitochondrial'"
+Anolis_carolinensis,Tier3_name_all,A0A803TDJ6,False,Anolis carolinensis,28377,,Cytochrome c oxidase subunit 6B1,103,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit 6B1'
+Anolis_carolinensis,Tier3_name_all,A0A803TT32,False,Anolis carolinensis,28377,,Cytochrome c oxidase subunit 7A2,111,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit 7A2'
+Chrysemys_picta,Tier3_name_all,A0A8C3PCA0,False,Chrysemys picta bellii,8478,LOC101947485,Cytochrome c,105,True,
+Chrysemys_picta,Tier3_name_all,A0A8C3FA01,False,Chrysemys picta bellii,8478,LOC135974352,Cytochrome c,105,True,
+Chrysemys_picta,Tier3_name_all,A0A8C3FHU9,False,Chrysemys picta bellii,8478,LOC101933053,Cytochrome c oxidase subunit,112,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit'
+Chrysemys_picta,Tier3_name_all,A0A8C3FX72,False,Chrysemys picta bellii,8478,COX6A1,Cytochrome c oxidase subunit,109,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit'
+Chrysemys_picta,Tier3_name_all,A0A8C3H981,False,Chrysemys picta bellii,8478,LOC101939637,Cytochrome c oxidase subunit 6C,109,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit 6C'
+Chrysemys_picta,Tier3_name_all,A0A8C3F964,False,Chrysemys picta bellii,8478,,Cytochrome c oxidase assembly factor 6 homolog,105,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase assembly factor 6 homolog'
+Chrysemys_picta,Tier3_name_all,A0A8C3FBD6,False,Chrysemys picta bellii,8478,LOC101931369,Cytochrome c oxidase subunit 6B1,104,False,no CxxCH motif; bad protein name: 'Cytochrome c oxidase subunit 6B1'
+Xenopus_tropicalis,Tier2_gene_reviewed,Q640U4,True,Xenopus tropicalis,8364,cycs,"Cytochrome c, somatic",105,True,
+Danio_rerio,Tier3_name_reviewed,Q6IQM2,True,Danio rerio,7955,cyc,Cytochrome c,104,True,
+Danio_rerio,Tier3_name_reviewed,Q6DH88,True,Danio rerio,7955,cox20,"Cytochrome c oxidase assembly protein COX20, mitochondrial",111,False,"no CxxCH motif; bad protein name: 'Cytochrome c oxidase assembly protein COX20, mitochondrial'"
+Takifugu_rubripes,Tier3_name_reviewed,Q1KKS2,True,Takifugu rubripes,31033,cyc-B,Cytochrome c-b,105,True,
+Takifugu_rubripes,Tier3_name_reviewed,Q1KL06,True,Takifugu rubripes,31033,cyc-a,Cytochrome c-a,105,True,
+Drosophila_melanogaster,Tier2_gene_reviewed,P84029,True,Drosophila melanogaster,7227,Cyt-c-p,Cytochrome c-2,108,True,
+Saccharomyces_cerevisiae,Tier1_accession,P00044,True,Saccharomyces cerevisiae (strain ATCC 204508 / S288c),559292,CYC1,Cytochrome c isoform 1,109,True,

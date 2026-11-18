@@ -1,0 +1,1611 @@
+{
+  "entryType": "UniProtKB reviewed (Swiss-Prot)",
+  "primaryAccession": "P84029",
+  "secondaryAccessions": [
+    "P00033",
+    "P00034",
+    "Q9VJJ3"
+  ],
+  "uniProtkbId": "CYC2_DROME",
+  "entryAudit": {
+    "firstPublicDate": "1986-07-21",
+    "lastAnnotationUpdateDate": "2026-11-04",
+    "lastSequenceUpdateDate": "2007-01-23",
+    "entryVersion": 163,
+    "sequenceVersion": 2
+  },
+  "annotationScore": 5.0,
+  "organism": {
+    "scientificName": "Drosophila melanogaster",
+    "commonName": "Fruit fly",
+    "taxonId": 7227,
+    "lineage": [
+      "Eukaryota",
+      "Metazoa",
+      "Ecdysozoa",
+      "Arthropoda",
+      "Altocrustacea",
+      "Allotriocarida",
+      "Hexapoda",
+      "Insecta",
+      "Pterygota",
+      "Neoptera",
+      "Eumetabola",
+      "Endopterygota",
+      "Aparaglossata",
+      "Panorpida",
+      "Diptera",
+      "Brachycera",
+      "Muscomorpha",
+      "Ephydroidea",
+      "Drosophilidae",
+      "Drosophila",
+      "Sophophora"
+    ]
+  },
+  "proteinExistence": "1: Evidence at protein level",
+  "proteinDescription": {
+    "recommendedName": {
+      "fullName": {
+        "value": "Cytochrome c-2"
+      }
+    },
+    "alternativeNames": [
+      {
+        "fullName": {
+          "value": "Cytochrome c-proximal"
+        }
+      }
+    ]
+  },
+  "genes": [
+    {
+      "geneName": {
+        "value": "Cyt-c-p"
+      },
+      "synonyms": [
+        {
+          "value": "CYTC2"
+        },
+        {
+          "value": "DC4"
+        }
+      ],
+      "orfNames": [
+        {
+          "value": "CG17903"
+        }
+      ]
+    }
+  ],
+  "comments": [
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "2987802"
+            }
+          ],
+          "value": "Electron carrier protein. The oxidized form of the cytochrome c heme group can accept an electron from the heme group of the cytochrome c1 subunit of cytochrome reductase. Cytochrome c then transfers this electron to the cytochrome oxidase complex, the final protein carrier in the mitochondrial electron-transport chain"
+        }
+      ],
+      "commentType": "FUNCTION"
+    },
+    {
+      "commentType": "SUBCELLULAR LOCATION",
+      "note": {
+        "texts": [
+          {
+            "value": "Loosely associated with the inner membrane"
+          }
+        ]
+      },
+      "subcellularLocations": [
+        {
+          "location": {
+            "evidences": [
+              {
+                "evidenceCode": "ECO:0000269",
+                "source": "PubMed",
+                "id": "2984675"
+              }
+            ],
+            "value": "Mitochondrion intermembrane space",
+            "id": "SL-0169"
+          }
+        }
+      ]
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000269",
+              "source": "PubMed",
+              "id": "2987802"
+            }
+          ],
+          "value": "Expressed at varying, but relatively high levels throughout development"
+        }
+      ],
+      "commentType": "DEVELOPMENTAL STAGE"
+    },
+    {
+      "texts": [
+        {
+          "value": "Binds 1 heme c group covalently per subunit"
+        }
+      ],
+      "commentType": "PTM"
+    },
+    {
+      "texts": [
+        {
+          "value": "There are two cytochrome C genes in Drosophila: Cyt-c-d (distal) and Cyt-c-p (proximal)"
+        }
+      ],
+      "commentType": "MISCELLANEOUS"
+    },
+    {
+      "texts": [
+        {
+          "evidences": [
+            {
+              "evidenceCode": "ECO:0000305"
+            }
+          ],
+          "value": "Belongs to the cytochrome c family"
+        }
+      ],
+      "commentType": "SIMILARITY"
+    },
+    {
+      "commentType": "WEB RESOURCE",
+      "resourceName": "Protein Spotlight",
+      "resourceUrl": "https://www.proteinspotlight.org/back_issues/076",
+      "ftp": false,
+      "note": "Life shuttle - Issue 76 of November 2006"
+    }
+  ],
+  "features": [
+    {
+      "type": "Initiator methionine",
+      "location": {
+        "start": {
+          "value": 1,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 1,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Removed",
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000269",
+          "source": "PubMed",
+          "id": "3029051"
+        }
+      ]
+    },
+    {
+      "type": "Chain",
+      "location": {
+        "start": {
+          "value": 2,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 108,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "Cytochrome c-2",
+      "featureId": "PRO_0000108261"
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 19,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 19,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "covalent",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 22,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 22,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "covalent",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 23,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 23,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "axial binding residue",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        },
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:18248"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      },
+      "ligandPart": {
+        "name": "Fe",
+        "id": "ChEBI:CHEBI:18248"
+      }
+    },
+    {
+      "type": "Binding site",
+      "location": {
+        "start": {
+          "value": 85,
+          "modifier": "EXACT"
+        },
+        "end": {
+          "value": 85,
+          "modifier": "EXACT"
+        }
+      },
+      "description": "axial binding residue",
+      "featureCrossReferences": [
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:61717"
+        },
+        {
+          "database": "ChEBI",
+          "id": "CHEBI:18248"
+        }
+      ],
+      "ligand": {
+        "name": "heme c",
+        "id": "ChEBI:CHEBI:61717"
+      },
+      "ligandPart": {
+        "name": "Fe",
+        "id": "ChEBI:CHEBI:18248"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "KW-0903",
+      "category": "Technical term",
+      "name": "Direct protein sequencing"
+    },
+    {
+      "id": "KW-0249",
+      "category": "Biological process",
+      "name": "Electron transport"
+    },
+    {
+      "id": "KW-0349",
+      "category": "Ligand",
+      "name": "Heme"
+    },
+    {
+      "id": "KW-0408",
+      "category": "Ligand",
+      "name": "Iron"
+    },
+    {
+      "id": "KW-0479",
+      "category": "Ligand",
+      "name": "Metal-binding"
+    },
+    {
+      "id": "KW-0496",
+      "category": "Cellular component",
+      "name": "Mitochondrion"
+    },
+    {
+      "id": "KW-1185",
+      "category": "Technical term",
+      "name": "Reference proteome"
+    },
+    {
+      "id": "KW-0679",
+      "category": "Biological process",
+      "name": "Respiratory chain"
+    },
+    {
+      "id": "KW-0813",
+      "category": "Biological process",
+      "name": "Transport"
+    }
+  ],
+  "references": [
+    {
+      "referenceNumber": 1,
+      "citation": {
+        "id": "2987802",
+        "citationType": "journal article",
+        "authors": [
+          "Limbach K.J.",
+          "Wu R."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "2987802"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1093/nar/13.2.631"
+          }
+        ],
+        "title": "Characterization of two Drosophila melanogaster cytochrome c genes and their transcripts.",
+        "publicationDate": "1985",
+        "journal": "Nucleic Acids Res.",
+        "firstPage": "631",
+        "lastPage": "644",
+        "volume": "13"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA]",
+        "FUNCTION",
+        "DEVELOPMENTAL STAGE"
+      ]
+    },
+    {
+      "referenceNumber": 2,
+      "citation": {
+        "id": "2984675",
+        "citationType": "journal article",
+        "authors": [
+          "Swanson M.S.",
+          "Zieminn S.M.",
+          "Miller D.D.",
+          "Garber E.A.E.",
+          "Margoliash E."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "2984675"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1073/pnas.82.7.1964"
+          }
+        ],
+        "title": "Developmental expression of nuclear genes that encode mitochondrial proteins: insect cytochromes c.",
+        "publicationDate": "1985",
+        "journal": "Proc. Natl. Acad. Sci. U.S.A.",
+        "firstPage": "1964",
+        "lastPage": "1968",
+        "volume": "82"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [GENOMIC DNA]",
+        "SUBCELLULAR LOCATION"
+      ]
+    },
+    {
+      "referenceNumber": 3,
+      "citation": {
+        "id": "10731132",
+        "citationType": "journal article",
+        "authors": [
+          "Adams M.D.",
+          "Celniker S.E.",
+          "Holt R.A.",
+          "Evans C.A.",
+          "Gocayne J.D.",
+          "Amanatides P.G.",
+          "Scherer S.E.",
+          "Li P.W.",
+          "Hoskins R.A.",
+          "Galle R.F.",
+          "George R.A.",
+          "Lewis S.E.",
+          "Richards S.",
+          "Ashburner M.",
+          "Henderson S.N.",
+          "Sutton G.G.",
+          "Wortman J.R.",
+          "Yandell M.D.",
+          "Zhang Q.",
+          "Chen L.X.",
+          "Brandon R.C.",
+          "Rogers Y.-H.C.",
+          "Blazej R.G.",
+          "Champe M.",
+          "Pfeiffer B.D.",
+          "Wan K.H.",
+          "Doyle C.",
+          "Baxter E.G.",
+          "Helt G.",
+          "Nelson C.R.",
+          "Miklos G.L.G.",
+          "Abril J.F.",
+          "Agbayani A.",
+          "An H.-J.",
+          "Andrews-Pfannkoch C.",
+          "Baldwin D.",
+          "Ballew R.M.",
+          "Basu A.",
+          "Baxendale J.",
+          "Bayraktaroglu L.",
+          "Beasley E.M.",
+          "Beeson K.Y.",
+          "Benos P.V.",
+          "Berman B.P.",
+          "Bhandari D.",
+          "Bolshakov S.",
+          "Borkova D.",
+          "Botchan M.R.",
+          "Bouck J.",
+          "Brokstein P.",
+          "Brottier P.",
+          "Burtis K.C.",
+          "Busam D.A.",
+          "Butler H.",
+          "Cadieu E.",
+          "Center A.",
+          "Chandra I.",
+          "Cherry J.M.",
+          "Cawley S.",
+          "Dahlke C.",
+          "Davenport L.B.",
+          "Davies P.",
+          "de Pablos B.",
+          "Delcher A.",
+          "Deng Z.",
+          "Mays A.D.",
+          "Dew I.",
+          "Dietz S.M.",
+          "Dodson K.",
+          "Doup L.E.",
+          "Downes M.",
+          "Dugan-Rocha S.",
+          "Dunkov B.C.",
+          "Dunn P.",
+          "Durbin K.J.",
+          "Evangelista C.C.",
+          "Ferraz C.",
+          "Ferriera S.",
+          "Fleischmann W.",
+          "Fosler C.",
+          "Gabrielian A.E.",
+          "Garg N.S.",
+          "Gelbart W.M.",
+          "Glasser K.",
+          "Glodek A.",
+          "Gong F.",
+          "Gorrell J.H.",
+          "Gu Z.",
+          "Guan P.",
+          "Harris M.",
+          "Harris N.L.",
+          "Harvey D.A.",
+          "Heiman T.J.",
+          "Hernandez J.R.",
+          "Houck J.",
+          "Hostin D.",
+          "Houston K.A.",
+          "Howland T.J.",
+          "Wei M.-H.",
+          "Ibegwam C.",
+          "Jalali M.",
+          "Kalush F.",
+          "Karpen G.H.",
+          "Ke Z.",
+          "Kennison J.A.",
+          "Ketchum K.A.",
+          "Kimmel B.E.",
+          "Kodira C.D.",
+          "Kraft C.L.",
+          "Kravitz S.",
+          "Kulp D.",
+          "Lai Z.",
+          "Lasko P.",
+          "Lei Y.",
+          "Levitsky A.A.",
+          "Li J.H.",
+          "Li Z.",
+          "Liang Y.",
+          "Lin X.",
+          "Liu X.",
+          "Mattei B.",
+          "McIntosh T.C.",
+          "McLeod M.P.",
+          "McPherson D.",
+          "Merkulov G.",
+          "Milshina N.V.",
+          "Mobarry C.",
+          "Morris J.",
+          "Moshrefi A.",
+          "Mount S.M.",
+          "Moy M.",
+          "Murphy B.",
+          "Murphy L.",
+          "Muzny D.M.",
+          "Nelson D.L.",
+          "Nelson D.R.",
+          "Nelson K.A.",
+          "Nixon K.",
+          "Nusskern D.R.",
+          "Pacleb J.M.",
+          "Palazzolo M.",
+          "Pittman G.S.",
+          "Pan S.",
+          "Pollard J.",
+          "Puri V.",
+          "Reese M.G.",
+          "Reinert K.",
+          "Remington K.",
+          "Saunders R.D.C.",
+          "Scheeler F.",
+          "Shen H.",
+          "Shue B.C.",
+          "Siden-Kiamos I.",
+          "Simpson M.",
+          "Skupski M.P.",
+          "Smith T.J.",
+          "Spier E.",
+          "Spradling A.C.",
+          "Stapleton M.",
+          "Strong R.",
+          "Sun E.",
+          "Svirskas R.",
+          "Tector C.",
+          "Turner R.",
+          "Venter E.",
+          "Wang A.H.",
+          "Wang X.",
+          "Wang Z.-Y.",
+          "Wassarman D.A.",
+          "Weinstock G.M.",
+          "Weissenbach J.",
+          "Williams S.M.",
+          "Woodage T.",
+          "Worley K.C.",
+          "Wu D.",
+          "Yang S.",
+          "Yao Q.A.",
+          "Ye J.",
+          "Yeh R.-F.",
+          "Zaveri J.S.",
+          "Zhan M.",
+          "Zhang G.",
+          "Zhao Q.",
+          "Zheng L.",
+          "Zheng X.H.",
+          "Zhong F.N.",
+          "Zhong W.",
+          "Zhou X.",
+          "Zhu S.C.",
+          "Zhu X.",
+          "Smith H.O.",
+          "Gibbs R.A.",
+          "Myers E.W.",
+          "Rubin G.M.",
+          "Venter J.C."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "10731132"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1126/science.287.5461.2185"
+          }
+        ],
+        "title": "The genome sequence of Drosophila melanogaster.",
+        "publicationDate": "2000",
+        "journal": "Science",
+        "firstPage": "2185",
+        "lastPage": "2195",
+        "volume": "287"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE GENOMIC DNA]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Berkeley",
+          "type": "STRAIN"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 4,
+      "citation": {
+        "id": "12537572",
+        "citationType": "journal article",
+        "authors": [
+          "Misra S.",
+          "Crosby M.A.",
+          "Mungall C.J.",
+          "Matthews B.B.",
+          "Campbell K.S.",
+          "Hradecky P.",
+          "Huang Y.",
+          "Kaminker J.S.",
+          "Millburn G.H.",
+          "Prochnik S.E.",
+          "Smith C.D.",
+          "Tupy J.L.",
+          "Whitfield E.J.",
+          "Bayraktaroglu L.",
+          "Berman B.P.",
+          "Bettencourt B.R.",
+          "Celniker S.E.",
+          "de Grey A.D.N.J.",
+          "Drysdale R.A.",
+          "Harris N.L.",
+          "Richter J.",
+          "Russo S.",
+          "Schroeder A.J.",
+          "Shu S.Q.",
+          "Stapleton M.",
+          "Yamada C.",
+          "Ashburner M.",
+          "Gelbart W.M.",
+          "Rubin G.M.",
+          "Lewis S.E."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "12537572"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1186/gb-2002-3-12-research0083"
+          }
+        ],
+        "title": "Annotation of the Drosophila melanogaster euchromatic genome: a systematic review.",
+        "publicationDate": "2002",
+        "journal": "Genome Biol.",
+        "firstPage": "RESEARCH0083.1",
+        "lastPage": "RESEARCH0083.22",
+        "volume": "3"
+      },
+      "referencePositions": [
+        "GENOME REANNOTATION"
+      ],
+      "referenceComments": [
+        {
+          "value": "Berkeley",
+          "type": "STRAIN"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 5,
+      "citation": {
+        "id": "CI-D92FSDGUPQE92",
+        "citationType": "submission",
+        "authors": [
+          "Stapleton M.",
+          "Brokstein P.",
+          "Hong L.",
+          "Agbayani A.",
+          "Carlson J.W.",
+          "Champe M.",
+          "Chavez C.",
+          "Dorsett V.",
+          "Dresnek D.",
+          "Farfan D.",
+          "Frise E.",
+          "George R.A.",
+          "Gonzalez M.",
+          "Guarin H.",
+          "Kronmiller B.",
+          "Li P.W.",
+          "Liao G.",
+          "Miranda A.",
+          "Mungall C.J.",
+          "Nunoo J.",
+          "Pacleb J.M.",
+          "Paragas V.",
+          "Park S.",
+          "Patel S.",
+          "Phouanenavong S.",
+          "Wan K.H.",
+          "Yu C.",
+          "Lewis S.E.",
+          "Rubin G.M.",
+          "Celniker S.E."
+        ],
+        "publicationDate": "AUG-2003",
+        "submissionDatabase": "EMBL/GenBank/DDBJ databases"
+      },
+      "referencePositions": [
+        "NUCLEOTIDE SEQUENCE [LARGE SCALE MRNA]"
+      ],
+      "referenceComments": [
+        {
+          "value": "Berkeley",
+          "type": "STRAIN"
+        },
+        {
+          "value": "Head",
+          "type": "TISSUE"
+        }
+      ]
+    },
+    {
+      "referenceNumber": 6,
+      "citation": {
+        "id": "3029051",
+        "citationType": "journal article",
+        "authors": [
+          "Inoue S.",
+          "Inoue H.",
+          "Hiroyoshi T.",
+          "Matsubara H.",
+          "Yamanaka T."
+        ],
+        "citationCrossReferences": [
+          {
+            "database": "PubMed",
+            "id": "3029051"
+          },
+          {
+            "database": "DOI",
+            "id": "10.1093/oxfordjournals.jbchem.a121808"
+          }
+        ],
+        "title": "Developmental variation and amino acid sequences of cytochromes c of the fruit fly Drosophila melanogaster and the flesh fly Boettcherisca peregrina.",
+        "publicationDate": "1986",
+        "journal": "J. Biochem.",
+        "firstPage": "955",
+        "lastPage": "965",
+        "volume": "100"
+      },
+      "referencePositions": [
+        "PROTEIN SEQUENCE OF 2-108"
+      ]
+    }
+  ],
+  "uniProtKBCrossReferences": [
+    {
+      "database": "EMBL",
+      "id": "X01760",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "CAA25900.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "M11381",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAA28437.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AE014134",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAF53554.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "Genomic_DNA"
+        }
+      ]
+    },
+    {
+      "database": "EMBL",
+      "id": "AY071701",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "AAL49323.1"
+        },
+        {
+          "key": "Status",
+          "value": "-"
+        },
+        {
+          "key": "MoleculeType",
+          "value": "mRNA"
+        }
+      ]
+    },
+    {
+      "database": "PIR",
+      "id": "A22945",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CCFFDM"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_001285984.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_001299055.1"
+        }
+      ]
+    },
+    {
+      "database": "RefSeq",
+      "id": "NP_477176.1",
+      "properties": [
+        {
+          "key": "NucleotideSequenceId",
+          "value": "NM_057828.4"
+        }
+      ]
+    },
+    {
+      "database": "AlphaFoldDB",
+      "id": "P84029",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "SMR",
+      "id": "P84029",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "BioGRID",
+      "id": "61003",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "42"
+        }
+      ]
+    },
+    {
+      "database": "FunCoup",
+      "id": "P84029",
+      "properties": [
+        {
+          "key": "Number of interactors",
+          "value": "1062"
+        }
+      ]
+    },
+    {
+      "database": "IntAct",
+      "id": "P84029",
+      "properties": [
+        {
+          "key": "Interactions",
+          "value": "107"
+        }
+      ]
+    },
+    {
+      "database": "STRING",
+      "id": "7227.FBpp0080446",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PaxDb",
+      "id": "7227-FBpp0080446",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PeptideAtlas",
+      "id": "P84029",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "DNASU",
+      "id": "34996",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "EnsemblMetazoa",
+      "id": "FBtr0080889",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "FBpp0080446"
+        },
+        {
+          "key": "GeneId",
+          "value": "FBgn0284248"
+        }
+      ]
+    },
+    {
+      "database": "EnsemblMetazoa",
+      "id": "FBtr0344849",
+      "properties": [
+        {
+          "key": "ProteinId",
+          "value": "FBpp0311164"
+        },
+        {
+          "key": "GeneId",
+          "value": "FBgn0284248"
+        }
+      ]
+    },
+    {
+      "database": "GeneID",
+      "id": "34996",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "KEGG",
+      "id": "dme:Dmel_CG17903",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "AGR",
+      "id": "FB:FBgn0284248",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "CTD",
+      "id": "34996",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "FlyBase",
+      "id": "FBgn0284248",
+      "properties": [
+        {
+          "key": "GeneName",
+          "value": "Cyt-c-p"
+        }
+      ]
+    },
+    {
+      "database": "VEuPathDB",
+      "id": "VectorBase:FBgn0284248",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "eggNOG",
+      "id": "KOG3453",
+      "properties": [
+        {
+          "key": "ToxonomicScope",
+          "value": "Eukaryota"
+        }
+      ]
+    },
+    {
+      "database": "HOGENOM",
+      "id": "CLU_060944_3_0_1",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "InParanoid",
+      "id": "P84029",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OMA",
+      "id": "AAHKDDY",
+      "properties": [
+        {
+          "key": "Fingerprint",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "OrthoDB",
+      "id": "449280at2759",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PhylomeDB",
+      "id": "P84029",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-DME-111457",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Release of apoptotic factors from the mitochondria"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-DME-111458",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Formation of apoptosome"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-DME-111459",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Activation of caspases through apoptosome-mediated cleavage"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-DME-3299685",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Detoxification of Reactive Oxygen Species"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-DME-5620971",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Pyroptosis"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-DME-5628897",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "TP53 Regulates Metabolic Genes"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-DME-611105",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Respiratory electron transport"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-DME-9627069",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Regulation of the apoptosome activity"
+        }
+      ]
+    },
+    {
+      "database": "Reactome",
+      "id": "R-DME-9707564",
+      "properties": [
+        {
+          "key": "PathwayName",
+          "value": "Cytoprotection by HMOX1"
+        }
+      ]
+    },
+    {
+      "database": "GenomeRNAi",
+      "id": "34996",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "PRO",
+      "id": "PR:P84029",
+      "properties": [
+        {
+          "key": "Description",
+          "value": "-"
+        }
+      ]
+    },
+    {
+      "database": "Proteomes",
+      "id": "UP000000803",
+      "properties": [
+        {
+          "key": "Component",
+          "value": "Chromosome 2L"
+        }
+      ]
+    },
+    {
+      "database": "Bgee",
+      "id": "FBgn0284248",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "Expressed in DN1 neuron (Drosophila) in brain and 300 other cell types or tissues"
+        }
+      ]
+    },
+    {
+      "database": "ExpressionAtlas",
+      "id": "P84029",
+      "properties": [
+        {
+          "key": "ExpressionPatterns",
+          "value": "baseline and differential"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005829",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:cytosol"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:FlyBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "12356728"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "17557079"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005758",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:mitochondrial intermembrane space"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "ISS:FlyBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "PubMed",
+          "id": "2987802"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0005739",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "C:mitochondrion"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:FlyBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "10896659"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "15533997"
+        },
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "16943323"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0009055",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:electron transfer activity"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IDA:FlyBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000314",
+          "source": "PubMed",
+          "id": "2987802"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0020037",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "F:heme binding"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IEA:InterPro"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006123",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:mitochondrial electron transport, cytochrome c to oxygen"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006122",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:mitochondrial electron transport, ubiquinol to cytochrome c"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "IBA:GO_Central"
+        }
+      ]
+    },
+    {
+      "database": "GO",
+      "id": "GO:0006119",
+      "properties": [
+        {
+          "key": "GoTerm",
+          "value": "P:oxidative phosphorylation"
+        },
+        {
+          "key": "GoEvidenceType",
+          "value": "ISS:FlyBase"
+        }
+      ],
+      "evidences": [
+        {
+          "evidenceCode": "ECO:0000250",
+          "source": "PubMed",
+          "id": "2987802"
+        }
+      ]
+    },
+    {
+      "database": "FunFam",
+      "id": "1.10.760.10:FF:000001",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c iso-1"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Gene3D",
+      "id": "1.10.760.10",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c-like domain"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR009056",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c-like_dom"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR036909",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c-like_dom_sf"
+        }
+      ]
+    },
+    {
+      "database": "InterPro",
+      "id": "IPR002327",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cyt_c_1A/1B"
+        }
+      ]
+    },
+    {
+      "database": "PANTHER",
+      "id": "PTHR11961",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTOCHROME C"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "Pfam",
+      "id": "PF00034",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrom_C"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PRINTS",
+      "id": "PR00604",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTCHRMECIAB"
+        }
+      ]
+    },
+    {
+      "database": "SUPFAM",
+      "id": "SSF46626",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "Cytochrome c"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "database": "PROSITE",
+      "id": "PS51007",
+      "properties": [
+        {
+          "key": "EntryName",
+          "value": "CYTC"
+        },
+        {
+          "key": "MatchStatus",
+          "value": "1"
+        }
+      ]
+    }
+  ],
+  "sequence": {
+    "value": "MGVPAGDVEKGKKLFVQRCAQCHTVEAGGKHKVGPNLHGLIGRKTGQAAGFAYTDANKAKGITWNEDTLFEYLENPKKYIPGTKMIFAGLKKPNERGDLIAYLKSATK",
+    "length": 108,
+    "molWeight": 11735,
+    "crc64": "535FFBAF282D20D7",
+    "md5": "FA9FCA659C726FFCD513D013A168ED31"
+  },
+  "extraAttributes": {
+    "countByCommentType": {
+      "FUNCTION": 1,
+      "SUBCELLULAR LOCATION": 1,
+      "DEVELOPMENTAL STAGE": 1,
+      "PTM": 1,
+      "MISCELLANEOUS": 1,
+      "SIMILARITY": 1,
+      "WEB RESOURCE": 1
+    },
+    "countByFeatureType": {
+      "Initiator methionine": 1,
+      "Chain": 1,
+      "Binding site": 4
+    },
+    "uniParcId": "UPI0000000FDA"
+  }
+}
