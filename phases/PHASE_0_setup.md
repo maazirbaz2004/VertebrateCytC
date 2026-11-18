@@ -1,3 +1,4 @@
+
 # PHASE 0: Environment Setup and Repository Scaffolding
 
 **Read `CLAUDE.md` first.**

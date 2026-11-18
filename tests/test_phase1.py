@@ -39,3 +39,4 @@ def test_unique_accessions_and_human_anchor():
     assert len(hum) == 105
     assert hum.startswith("MGDVEKGKKIF")
     assert "CSQCH" in hum
+
