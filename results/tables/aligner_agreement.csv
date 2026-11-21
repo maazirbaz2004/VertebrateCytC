@@ -1,0 +1,3 @@
+dataset,primary_aligner,secondary_aligner,n_informative_primary,n_informative_secondary,n_shared_columns,pct_shared_columns_vs_primary,pct_shared_columns_jaccard,n_pairs_primary,n_shared_pairs,pct_shared_pairs_vs_primary,pct_shared_pairs_jaccard,disagreed_primary_cols
+all,clustalo,muscle,109,109,105,96.33,92.92,14239,14195,99.69,99.38,"2-3, 109-110"
+vert,clustalo,muscle,105,105,103,98.1,96.26,11011,10997,99.87,99.75,104-105

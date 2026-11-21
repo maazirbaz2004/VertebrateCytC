@@ -1,0 +1,58 @@
+CLUSTAL X (1.81) multiple sequence alignment
+
+
+Homo_sapiens                        -----MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAP
+Macaca_mulatta                      -----MGDVEKGKKIFIMKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAP
+Mus_musculus                        -----MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAA
+Rattus_norvegicus                   -----MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAA
+Canis_lupus_familiaris              -----MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAP
+Bos_taurus                          -----MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAP
+Equus_caballus                      -----MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLHGLFGRKTGQAP
+Monodelphis_domestica               -----MGDVEKGKKIFVQKCAQCHTVEKGGKHKTGPNLNGLFGRKTGQAP
+Gallus_gallus                       -----MGDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAE
+Taeniopygia_guttata                 -----MGDVEKGKKIFVQKCSQCHTVEKGGKHKTGPNLNGLFGRKTGQAE
+Anolis_carolinensis                 -----MGDIEKGKKIFVQKCSQCHTVEKGGKHKTGPNLHGLFGRKTGQAD
+Chrysemys_picta                     -----MGDIEKGKKIFVQKCAQCHTVEKGGKHKTGPNLNGLIGRKTGQAA
+Xenopus_tropicalis                  -----MGDVEKGKKIFVQKCAQCHTVEKTGKHKTGPNLWGLFGRKTGQAP
+Danio_rerio                         -----MGDVEKGKKVFVQKCAQCHTVENGGKHKVGPNLWGLFGRKTGQAE
+Takifugu_rubripes                   -----MGDIAKGKKIFVQRCSQCHTVTKEGRHKVGPNLWGLFGRKTGQAE
+Drosophila_melanogaster             -MGVPAGDVEKGKKLFVQRCAQCHTVEAGGKHKVGPNLHGLIGRKTGQAA
+Saccharomyces_cerevisiae            MTEFKAGSAKKGATLFKTRCLQCHTVEKGGPHKVGPNLHGIFGRHSGQAE
+
+Homo_sapiens                        GYSYTAANKNKGIIWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADL
+Macaca_mulatta                      GYSYTAANKNKGITWGEDTLMEYLENPKKYIPGTKMIFVGIKKKEERADL
+Mus_musculus                        GFSYTDANKNKGITWGEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADL
+Rattus_norvegicus                   GFSYTDANKNKGITWGEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADL
+Canis_lupus_familiaris              GFSYTDANKNKGITWGEETLMEYLENPKKYIPGTKMIFAGIKKTGERADL
+Bos_taurus                          GFSYTDANKNKGITWGEETLMEYLENPKKYIPGTKMIFAGIKKKGEREDL
+Equus_caballus                      GFTYTDANKNKGITWKEETLMEYLENPKKYIPGTKMIFAGIKKKTEREDL
+Monodelphis_domestica               GFSYTDANKSKGIIWSEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADL
+Gallus_gallus                       GFSYTDANKNKGITWGEDTLMEYLENPKKYIPGTKMIFAGIKKKSERVDL
+Taeniopygia_guttata                 GFSYTDANKNKGITWGEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADL
+Anolis_carolinensis                 GFSYTEANKSKGIIWGEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADL
+Chrysemys_picta                     GFSYTEANKNKGITWGEETLMEYLENPKKYIPGTKMIFAGIKKKTERADL
+Xenopus_tropicalis                  GFSYTDANKSKGIVWGEDTLFEYLENPKKYIPGTKMIFAGIKKKNERADL
+Danio_rerio                         GFSYTDANKSKGIVWGEDTLMEYLENPKKYIPGTKMIFAGIKKKGERADL
+Takifugu_rubripes                   GYSYTQANIEKGITWDEETLNVYLQNPKKYIPGTKMNFAGIRKKRERLDI
+Drosophila_melanogaster             GFAYTDANKAKGITWNEDTLFEYLENPKKYIPGTKMIFAGLKKPNERGDL
+Saccharomyces_cerevisiae            GYSYTDANIKKNVLWDENNMSEYLTNPKKYIPGTKMAFGGLKKEKDRNDL
+
+Homo_sapiens                        IAYLKKATNE
+Macaca_mulatta                      IAYLKKATNE
+Mus_musculus                        IAYLKKATNE
+Rattus_norvegicus                   IAYLKKATNE
+Canis_lupus_familiaris              IAYLKKATKE
+Bos_taurus                          IAYLKKATNE
+Equus_caballus                      IAYLKKATNE
+Monodelphis_domestica               IAYLKKATNE
+Gallus_gallus                       IAYLKDATSK
+Taeniopygia_guttata                 IAYLKVATAK
+Anolis_carolinensis                 IAYLKDSTSK
+Chrysemys_picta                     IAYLKDATSK
+Xenopus_tropicalis                  IAYLKKSTSE
+Danio_rerio                         IAYLKSATS-
+Takifugu_rubripes                   IAYIKEATSK
+Drosophila_melanogaster             IAYLKSATK-
+Saccharomyces_cerevisiae            ITYLKKACE-
+
+
