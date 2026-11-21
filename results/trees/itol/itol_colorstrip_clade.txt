@@ -1,0 +1,26 @@
+DATASET_COLORSTRIP
+SEPARATOR COMMA
+DATASET_LABEL,Clade
+COLOR,#ff0000
+LEGEND_TITLE,Clade
+LEGEND_SHAPES,1,1,1,1,1,1,1,1,1
+LEGEND_COLORS,#1b9e77,#d95f02,#7570b3,#e7298a,#66a61e,#e6ab02,#a6761d,#666666,#1f78b4
+LEGEND_LABELS,Primate,Rodent,OtherMammal,Bird,Reptile,Amphibian,Fish,Insect,Fungus
+DATA
+Homo_sapiens,#1b9e77,Primate
+Macaca_mulatta,#1b9e77,Primate
+Mus_musculus,#d95f02,Rodent
+Rattus_norvegicus,#d95f02,Rodent
+Canis_lupus_familiaris,#7570b3,OtherMammal
+Bos_taurus,#7570b3,OtherMammal
+Equus_caballus,#7570b3,OtherMammal
+Monodelphis_domestica,#7570b3,OtherMammal
+Gallus_gallus,#e7298a,Bird
+Taeniopygia_guttata,#e7298a,Bird
+Anolis_carolinensis,#66a61e,Reptile
+Chrysemys_picta,#66a61e,Reptile
+Xenopus_tropicalis,#e6ab02,Amphibian
+Danio_rerio,#a6761d,Fish
+Takifugu_rubripes,#a6761d,Fish
+Drosophila_melanogaster,#666666,Insect
+Saccharomyces_cerevisiae,#1f78b4,Fungus

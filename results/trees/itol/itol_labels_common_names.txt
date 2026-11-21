@@ -1,0 +1,20 @@
+LABELS
+SEPARATOR TAB
+DATA
+Homo_sapiens	Homo sapiens (Human)
+Macaca_mulatta	Macaca mulatta (Rhesus macaque)
+Mus_musculus	Mus musculus (House mouse)
+Rattus_norvegicus	Rattus norvegicus (Brown rat)
+Canis_lupus_familiaris	Canis lupus familiaris (Dog)
+Bos_taurus	Bos taurus (Cattle)
+Equus_caballus	Equus caballus (Horse)
+Monodelphis_domestica	Monodelphis domestica (Gray short-tailed opossum)
+Gallus_gallus	Gallus gallus (Chicken)
+Taeniopygia_guttata	Taeniopygia guttata (Zebra finch)
+Anolis_carolinensis	Anolis carolinensis (Green anole)
+Chrysemys_picta	Chrysemys picta (Painted turtle)
+Xenopus_tropicalis	Xenopus tropicalis (Western clawed frog)
+Danio_rerio	Danio rerio (Zebrafish)
+Takifugu_rubripes	Takifugu rubripes (Torafugu)
+Drosophila_melanogaster	Drosophila melanogaster (Fruit fly)
+Saccharomyces_cerevisiae	Saccharomyces cerevisiae (Baker's yeast)

@@ -1,0 +1,16 @@
+node_id,n_leaves,leaves,sh_alrt,ufboot,branch_length,supported
+N01,16,Anolis_carolinensis;Bos_taurus;Canis_lupus_familiaris;Chrysemys_picta;Danio_rerio;Drosophila_melanogaster;Equus_caballus;Gallus_gallus;Homo_sapiens;Macaca_mulatta;Monodelphis_domestica;Mus_musculus;Rattus_norvegicus;Taeniopygia_guttata;Takifugu_rubripes;Xenopus_tropicalis,,,1.05954,False
+N02,15,Anolis_carolinensis;Bos_taurus;Canis_lupus_familiaris;Chrysemys_picta;Danio_rerio;Equus_caballus;Gallus_gallus;Homo_sapiens;Macaca_mulatta;Monodelphis_domestica;Mus_musculus;Rattus_norvegicus;Taeniopygia_guttata;Takifugu_rubripes;Xenopus_tropicalis,89.9,70.0,0.138949,True
+N03,5,Anolis_carolinensis;Chrysemys_picta;Gallus_gallus;Taeniopygia_guttata;Takifugu_rubripes,87.2,49.0,0.048656,False
+N04,4,Anolis_carolinensis;Gallus_gallus;Taeniopygia_guttata;Takifugu_rubripes,28.2,25.0,0.022317,False
+N05,3,Anolis_carolinensis;Gallus_gallus;Takifugu_rubripes,0.0,17.0,2e-06,False
+N06,2,Gallus_gallus;Takifugu_rubripes,87.9,43.0,0.023059,False
+N07,10,Bos_taurus;Canis_lupus_familiaris;Danio_rerio;Equus_caballus;Homo_sapiens;Macaca_mulatta;Monodelphis_domestica;Mus_musculus;Rattus_norvegicus;Xenopus_tropicalis,0.0,32.0,2e-06,False
+N08,2,Mus_musculus;Rattus_norvegicus,0.0,94.0,1e-06,False
+N09,8,Bos_taurus;Canis_lupus_familiaris;Danio_rerio;Equus_caballus;Homo_sapiens;Macaca_mulatta;Monodelphis_domestica;Xenopus_tropicalis,86.4,33.0,0.011087,False
+N10,3,Bos_taurus;Canis_lupus_familiaris;Equus_caballus,79.9,67.0,0.010912,False
+N11,2,Bos_taurus;Equus_caballus,78.7,70.0,0.011645,False
+N12,5,Danio_rerio;Homo_sapiens;Macaca_mulatta;Monodelphis_domestica;Xenopus_tropicalis,0.0,9.0,2e-06,False
+N13,2,Homo_sapiens;Macaca_mulatta,98.9,100.0,0.086692,True
+N14,3,Danio_rerio;Monodelphis_domestica;Xenopus_tropicalis,84.6,56.0,0.022679,False
+N15,2,Danio_rerio;Xenopus_tropicalis,84.6,66.0,0.027772,False
