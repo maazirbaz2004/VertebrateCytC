@@ -1,0 +1,8 @@
+run,alignment,best_model,log_likelihood,n_parameters,bic,tree_length
+cytc_all,primary_all.fasta,Q.YEAST+G4,-999.9432,32,2150.3018,2.4
+cytc_vert,primary_vert.fasta,DAYHOFF+G4,-740.1563,28,1610.6235,0.9431
+cytc_all_lgg4,primary_all.fasta,LG+G4,-1001.548,32,2153.5114,2.3905
+cytc_all_muscle,all_muscle.fasta,DAYHOFF+G4,-997.4133,32,2145.242,2.0899
+cytc_all_trimmed,primary_all_trimmed.fasta,Q.YEAST+G4,-967.8166,32,2084.56,2.2125
+cytc_all_seed1,primary_all.fasta,Q.YEAST+G4,-999.9431,32,2150.3015,2.3989
+cytc_all_seed2,primary_all.fasta,DAYHOFF+G4,-998.8553,32,2148.1261,2.0944

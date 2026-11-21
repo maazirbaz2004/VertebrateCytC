@@ -1,0 +1,15 @@
+| clade | n_members | recovered_in_ML | UFBoot | recovered_in_NJ | NJ_bootstrap | recovered_in_FastTree | FastTree_SH_pct |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Mammalia | 8 | N | nan | Y | 22.4 | N | nan |
+| Eutheria | 7 | N | nan | Y | 100.0 | N | nan |
+| Primates | 2 | Y | 100.0 | Y | 99.8 | Y | 100.0 |
+| Rodentia | 2 | Y | 94.0 | Y | 91.1 | Y | nan |
+| Euarchontoglires | 4 | N | nan | N | nan | N | nan |
+| Laurasiatheria | 3 | Y | 67.0 | Y | 49.1 | Y | 80.3 |
+| Aves | 2 | N | nan | N | nan | N | nan |
+| Sauropsida | 4 | N | nan | Y | 26.7 | N | nan |
+| Amniota | 12 | N | nan | Y | 20.6 | N | nan |
+| Tetrapoda | 13 | N | nan | N | nan | N | nan |
+| Teleostei | 2 | N | nan | N | nan | N | nan |
+| Vertebrata | 15 | Y | 70.0 | N | nan | N | nan |
+| Bilateria | 16 | Y | nan | Y | 80.5 | Y | 85.2 |

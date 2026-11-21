@@ -1,0 +1,14 @@
+clade,n_members,recovered_in_ML,UFBoot,recovered_in_NJ,NJ_bootstrap,recovered_in_FastTree,FastTree_SH_pct
+Mammalia,8,N,,Y,22.4,N,
+Eutheria,7,N,,Y,100.0,N,
+Primates,2,Y,100.0,Y,99.8,Y,100.0
+Rodentia,2,Y,94.0,Y,91.1,Y,
+Euarchontoglires,4,N,,N,,N,
+Laurasiatheria,3,Y,67.0,Y,49.1,Y,80.3
+Aves,2,N,,N,,N,
+Sauropsida,4,N,,Y,26.7,N,
+Amniota,12,N,,Y,20.6,N,
+Tetrapoda,13,N,,N,,N,
+Teleostei,2,N,,N,,N,
+Vertebrata,15,Y,70.0,N,,N,
+Bilateria,16,Y,,Y,80.5,Y,85.2

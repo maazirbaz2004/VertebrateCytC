@@ -1,0 +1,6 @@
+alignment,dataset,aligner,n_seq,aln_length,n_gap_columns,n_gapfree_columns,n_invariant_columns,pct_identity_columns,mean_pairwise_identity,total_gap_chars,n_gap_blocks,sum_of_pairs_blosum62
+all_clustalo,all,clustalo,17,110,6,104,52,47.27,84.65,79,19,65030.5
+all_muscle,all,muscle,17,110,6,104,52,47.27,84.71,79,19,65088.5
+vert_clustalo,vert,clustalo,15,105,1,104,67,63.81,88.73,1,1,52941.0
+vert_muscle,vert,muscle,15,105,1,104,67,63.81,88.68,1,1,52913.0
+primary_all_trimmed,all_trimmed,clustalo+trimal,17,105,1,104,52,49.52,84.67,3,3,65398.0

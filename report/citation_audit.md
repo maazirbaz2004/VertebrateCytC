@@ -1,0 +1,10 @@
+# Citation Audit (Proposal References)
+
+All four references cited in the original project proposal were verified via bibliographic search.
+
+| Ref | Claim in Proposal | Verified Title & Venue | Matches Claim? | Recommended Action |
+| --- | --- | --- | --- | --- |
+| [1] Fitch (1976) | Molecular evolution and molecular clock of eukaryotic cytochrome *c* | W. M. Fitch, "The molecular evolution of cytochrome c in eukaryotes," *Journal of Molecular Evolution*, vol. 8, no. 1, pp. 13–40, 1976. | **Yes** | Keep as cited. |
+| [2] Syvanen et al. (1989) | Described as a vertebrate cytochrome *c* phylogenetic study | M. Syvanen, H. Hartman, and P. F. Stevens, "Classical plant taxonomic ambiguities extend to the molecular level," *Journal of Molecular Evolution*, vol. 28, no. 6, pp. 536–544, 1989 (DOI: 10.1007/BF02602934). | **Partial** (primarily an angiosperm study comparing 26 plants against 27 vertebrates as a control) | Keep with accurate description of its plant-vs-vertebrate comparison; **user approval requested** to also cite foundational vertebrate cytochrome *c* classics: E. Margoliash, *PNAS* 50(4):672–679 (1963) and W. M. Fitch & E. Margoliash, *Science* 155(3760):279–284 (1967). |
+| [3] Grossman et al. (2011) | Primate-lineage cytochrome *c* accelerated evolution / positive selection | D. Pierron, J. C. Opazo, M. Heiske, Z. Papper, M. Uddin, G. Chand, D. E. Wildman, R. Romero, M. Goodman, and L. I. Grossman, "Silencing, positive selection and parallel evolution: busy history of primate cytochromes c," *PLoS ONE*, vol. 6, no. 10, p. e26269, 2011 (DOI: 10.1371/journal.pone.0026269). | **Yes** (note: Pierron is first author, Grossman is senior/last author) | Keep with full author list (`Pierron et al., 2011`). |
+| [4] De Grassi et al. (2006) | Metazoan cytochrome *c* gene family evolution (*Gene*, 2006) | A. De Grassi, C. Lanave, and C. Saccone, "Evolution of ATP synthase subunit c and cytochrome c gene families in selected Metazoan classes," *Gene*, vol. 371, no. 2, pp. 224–233, 2006. | **Yes** | Keep as cited. |

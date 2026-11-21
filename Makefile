@@ -1,11 +1,15 @@
 PY=python
-.PHONY: env check phase1 phase2 phase3 phase4 phase5 phase6 phase7 phase8 all test clean-results
+.PHONY: env check phase1 phase1-offline phase2 phase3 phase4 phase5 phase6 phase7 phase8 all all-offline package test clean-results
 
 check:
 	$(PY) scripts/00_check_env.py
 
 phase1:
 	$(PY) scripts/10_select_and_fetch.py
+
+phase1-offline:
+	$(PY) -c "from pathlib import Path; assert Path('data/raw/cytc_raw.fasta').exists() and Path('results/tables/dataset_provenance.csv').exists(); print('Phase 1 offline raw dataset verified.')"
+
 phase2:
 	$(PY) scripts/20_prepare_sequences.py
 phase3:
@@ -21,7 +25,11 @@ phase7:
 phase8:
 	$(PY) scripts/80_make_report_assets.py
 
+package:
+	$(PY) scripts/80_make_report_assets.py --package
+
 all: phase1 phase2 phase3 phase4 phase5 phase6 phase7 phase8
+all-offline: phase1-offline phase2 phase3 phase4 phase5 phase6 phase7 phase8
 
 test:
 	pytest -q
@@ -29,4 +37,3 @@ test:
 clean-results:
 	rm -rf results/alignments/* results/conservation/* results/similarity/* \
 	       results/trees/* results/interpretation/* results/figures/* results/tables/*
-

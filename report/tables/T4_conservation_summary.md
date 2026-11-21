@@ -1,0 +1,4 @@
+| dataset | total_columns | gapfree_columns | n_invariant | pct_invariant | n_highly_conserved | n_ge_90_conserved | pct_ge_90_conserved | n_moderately_conserved | pct_moderately_conserved | n_variable | pct_variable | n_gap_rich | mean_identity_frac | median_identity_frac | mean_entropy_bits | mean_conservation_score | mean_jsd_score | n_invariant_stretches_ge2 | longest_invariant_stretch_len | longest_invariant_stretch_uniprot |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| vertebrates_only | 105 | 104 | 67 | 63.81 | 16 | 83 | 79.05 | 11 | 10.48 | 11 | 10.48 | 0 | 0.9299 | 1.0 | 0.2741 | 0.9366 | 0.802 | 16 | 11 | 71-81 |
+| all_17_species | 110 | 104 | 52 | 47.27 | 18 | 70 | 63.64 | 24 | 21.82 | 11 | 10.0 | 5 | 0.8925 | 0.9412 | 0.4148 | 0.904 | 0.748 | 10 | 11 | 71-81 |
