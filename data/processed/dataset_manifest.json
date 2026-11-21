@@ -1,0 +1,39 @@
+{
+  "created_utc": "2026-11-21T07:52:16Z",
+  "counts": {
+    "total": 17,
+    "ingroup_vertebrates": 15,
+    "outgroups": 2,
+    "identical_sequence_groups": 1
+  },
+  "files": {
+    "cytc_curated.fasta": {
+      "path": "data/processed/cytc_curated.fasta",
+      "records": 17,
+      "sha256": "1d3c698ef30568b676039e150028543157127702c7741960b65c11f3a0f34fef"
+    },
+    "cytc_curated_treeid.fasta": {
+      "path": "data/processed/cytc_curated_treeid.fasta",
+      "records": 17,
+      "sha256": "c5576f1867e935fafd81430acf3da81f7b0364a13c60216b0b6d4ea31dea6281"
+    },
+    "cytc_vertebrates.fasta": {
+      "path": "data/processed/cytc_vertebrates.fasta",
+      "records": 15,
+      "sha256": "7e294f1286c6b98cf94bf3b3674aad8d293ff59f18846f0b3d5a5d99b17b4248"
+    },
+    "id_map.csv": {
+      "path": "data/processed/id_map.csv",
+      "rows": 17,
+      "sha256": "c34e93128607c12b1164539d15a5c8d94754943a3103ba559b0a3767b8eb192e"
+    }
+  },
+  "tool_versions": {
+    "python": "3.11.18",
+    "biopython": "1.88",
+    "pandas": "3.1.1",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2"
+  }
+}

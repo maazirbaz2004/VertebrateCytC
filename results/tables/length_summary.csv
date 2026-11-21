@@ -1,0 +1,4 @@
+subset,n_species,min_length,max_length,mean_length,median_length,mode_length,n_at_mode,notes
+all,17,104,109,105.35,105.0,105,14,17 total sequences (15 vertebrates + 2 outgroups)
+ingroup_vertebrates,15,104,105,104.93,105.0,105,14,14/15 vertebrates have modal length 105 aa; non-modal: Danio_rerio (104 aa)
+outgroups,2,108,109,108.5,108.5,108,1,Drosophila_melanogaster: 108 aa (+3 aa vs vertebrate mode 105); Saccharomyces_cerevisiae: 109 aa (+4 aa vs vertebrate mode 105)
