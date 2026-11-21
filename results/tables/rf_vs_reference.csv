@@ -1,0 +1,6 @@
+tree,unrooted_rf,norm_unrooted_rf,rooted_rf,norm_rooted_rf,ref_clades_recovered,total_ref_clades,pct_ref_clades_recovered
+ML (IQ-TREE primary),19,0.6786,19,0.6333,5,14,35.7
+ML (IQ-TREE collapsed),12,0.4286,12,0.4,5,14,35.7
+NJ (Poisson),13,0.4643,13,0.4333,8,14,57.1
+NJ (BLOSUM62),11,0.3929,11,0.3667,9,14,64.3
+FastTree (LG+G),21,0.75,21,0.7,4,14,28.6

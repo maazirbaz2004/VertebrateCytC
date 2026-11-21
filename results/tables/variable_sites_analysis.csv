@@ -1,0 +1,11 @@
+aln_col,human_uniprot_pos,classical_pos,entropy_bits,mean_kd_hydropathy,surface_proxy,frac_conservative_subs,substitution_character,diagnostic_for_group
+95,90,89,2.04,-1.36,likely surface (hydrophilic),0.373,mostly radical,Primate
+50,45,44,1.746,-1.55,likely surface (hydrophilic),0.053,mostly radical,none
+106,101,100,1.688,-3.05,likely surface (hydrophilic),0.379,mostly radical,none
+109,104,103,1.563,-2.09,likely surface (hydrophilic),0.884,mostly conservative,none
+56,51,50,1.426,-2.79,likely surface (hydrophilic),0.552,mostly conservative,"Primate,Reptile"
+39,34,33,1.371,-2.8,likely surface (hydrophilic),0.429,mostly radical,none
+64,59,58,1.242,0.99,likely buried (hydrophobic),0.464,mostly radical,none
+98,93,92,1.237,1.39,likely buried (hydrophobic),0.245,mostly radical,none
+60,55,54,1.159,-2.78,likely surface (hydrophilic),1.0,mostly conservative,none
+66,61,60,1.039,-0.87,likely surface (hydrophilic),0.359,mostly radical,none

@@ -1,0 +1,14 @@
+clade,n_members,members,recovered_in_ML,UFBoot,recovered_in_NJ,NJ_bootstrap,recovered_in_FastTree,FastTree_SH_pct,comment
+Mammalia,8,Homo_sapiens;Macaca_mulatta;Mus_musculus;Rattus_norvegicus;Canis_lupus_familiaris;Bos_taurus;Equus_caballus;Monodelphis_domestica,N,,Y,22.4,N,,Short internal branches (<1-2 substitutions) and primate-specific substitutions limit resolution.
+Eutheria,7,Homo_sapiens;Macaca_mulatta;Mus_musculus;Rattus_norvegicus;Canis_lupus_familiaris;Bos_taurus;Equus_caballus,N,,Y,100.0,N,,Short internal branches (<1-2 substitutions) and primate-specific substitutions limit resolution.
+Primates,2,Homo_sapiens;Macaca_mulatta,Y,100.0,Y,99.8,Y,100.0,Recovered across all three methods.
+Rodentia,2,Mus_musculus;Rattus_norvegicus,Y,94.0,Y,91.1,Y,,Recovered across all three methods.
+Euarchontoglires,4,Homo_sapiens;Macaca_mulatta;Mus_musculus;Rattus_norvegicus,N,,N,,N,,Short internal branches (<1-2 substitutions) and primate-specific substitutions limit resolution.
+Laurasiatheria,3,Canis_lupus_familiaris;Bos_taurus;Equus_caballus,Y,67.0,Y,49.1,Y,80.3,Recovered across all three methods.
+Aves,2,Gallus_gallus;Taeniopygia_guttata,N,,N,,N,,Disrupted in ML by Takifugu rubripes nesting inside Sauropsida (low UFBoot 43-49); weak signal.
+Sauropsida,4,Gallus_gallus;Taeniopygia_guttata;Anolis_carolinensis;Chrysemys_picta,N,,Y,26.7,N,,Disrupted in ML by Takifugu rubripes nesting inside Sauropsida (low UFBoot 43-49); weak signal.
+Amniota,12,Homo_sapiens;Macaca_mulatta;Mus_musculus;Rattus_norvegicus;Canis_lupus_familiaris;Bos_taurus;Equus_caballus;Monodelphis_domestica;Gallus_gallus;Taeniopygia_guttata;Anolis_carolinensis;Chrysemys_picta,N,,Y,20.6,N,,Weak or conflicting single-gene signal across short 105-aa alignment.
+Tetrapoda,13,Homo_sapiens;Macaca_mulatta;Mus_musculus;Rattus_norvegicus;Canis_lupus_familiaris;Bos_taurus;Equus_caballus;Monodelphis_domestica;Gallus_gallus;Taeniopygia_guttata;Anolis_carolinensis;Chrysemys_picta;Xenopus_tropicalis,N,,N,,N,,Weak or conflicting single-gene signal across short 105-aa alignment.
+Teleostei,2,Danio_rerio;Takifugu_rubripes,N,,N,,N,,Split by fast-evolving Takifugu rubripes (long-branch attraction / rate heterogeneity).
+Vertebrata,15,Homo_sapiens;Macaca_mulatta;Mus_musculus;Rattus_norvegicus;Canis_lupus_familiaris;Bos_taurus;Equus_caballus;Monodelphis_domestica;Gallus_gallus;Taeniopygia_guttata;Anolis_carolinensis;Chrysemys_picta;Xenopus_tropicalis;Danio_rerio;Takifugu_rubripes,Y,70.0,N,,N,,Recovered in ML (UFBoot 70) and FastTree; disrupted in NJ because Takifugu is pulled outside Drosophila.
+Bilateria,16,Homo_sapiens;Macaca_mulatta;Mus_musculus;Rattus_norvegicus;Canis_lupus_familiaris;Bos_taurus;Equus_caballus;Monodelphis_domestica;Gallus_gallus;Taeniopygia_guttata;Anolis_carolinensis;Chrysemys_picta;Xenopus_tropicalis;Danio_rerio;Takifugu_rubripes;Drosophila_melanogaster,Y,,Y,80.5,Y,85.2,Recovered across all three methods.

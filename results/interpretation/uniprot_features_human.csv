@@ -1,0 +1,27 @@
+type,description,start,end,ligand
+Binding site,covalent,15,15,heme c
+Binding site,covalent,18,18,heme c
+Binding site,axial binding residue,19,19,heme c
+Binding site,axial binding residue,81,81,heme c
+Modified residue,N-acetylglycine,2,2,
+Modified residue,Phosphotyrosine,49,49,
+Modified residue,N6-succinyllysine,56,56,
+Modified residue,N6-acetyllysine; alternate,73,73,
+Modified residue,N6-succinyllysine; alternate,73,73,
+Modified residue,Phosphotyrosine,98,98,
+Modified residue,N6-acetyllysine,100,100,
+Natural variant,G->S; in THC4; increases the pro-apoptotic function by triggering caspase activation more efficiently than wild-type; does not affect the redox function; dbSNP:rs121918552,42,42,
+Natural variant,K->R; in dbSNP:rs11548795,56,56,
+Natural variant,M->L,66,66,
+Helix,,4,14,
+Turn,,15,18,
+Beta strand,,23,25,
+Beta strand,,28,30,
+Turn,,36,38,
+Beta strand,,39,42,
+Helix,,51,56,
+Helix,,62,70,
+Helix,,72,75,
+Beta strand,,76,78,
+Helix,,83,86,
+Helix,,89,102,

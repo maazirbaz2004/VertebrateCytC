@@ -1,0 +1,27 @@
+type,description,uniprot_start,uniprot_end,classical_start,classical_end,ligand,mean_identity_frac,mean_entropy_bits,classes
+Binding site,covalent,15,15,14,14,heme c,1.0,0.0,invariant
+Binding site,covalent,18,18,17,17,heme c,1.0,0.0,invariant
+Binding site,axial binding residue,19,19,18,18,heme c,1.0,0.0,invariant
+Binding site,axial binding residue,81,81,80,80,heme c,1.0,0.0,invariant
+Modified residue,N-acetylglycine,2,2,1,1,,1.0,0.0,invariant
+Modified residue,Phosphotyrosine,49,49,48,48,,1.0,0.0,invariant
+Modified residue,N6-succinyllysine,56,56,55,55,,1.0,0.0,invariant
+Modified residue,N6-acetyllysine; alternate,73,73,72,72,,1.0,0.0,invariant
+Modified residue,N6-succinyllysine; alternate,73,73,72,72,,1.0,0.0,invariant
+Modified residue,Phosphotyrosine,98,98,97,97,,1.0,0.0,invariant
+Modified residue,N6-acetyllysine,100,100,99,99,,1.0,0.0,invariant
+Natural variant,G->S; in THC4; increases the pro-apoptotic function by triggering caspase activation more efficiently than wild-type; does not affect the redox function; dbSNP:rs121918552,42,42,41,41,,1.0,0.0,invariant
+Natural variant,K->R; in dbSNP:rs11548795,56,56,55,55,,1.0,0.0,invariant
+Natural variant,M->L,66,66,65,65,,0.8667,0.6998,moderately_conserved
+Helix,,4,14,3,13,,0.9333,0.2754,"highly_conserved,invariant,moderately_conserved"
+Turn,,15,18,14,17,,0.9,0.2427,"invariant,variable"
+Beta strand,,23,25,22,24,,0.9333,0.3511,"highly_conserved,invariant,moderately_conserved"
+Beta strand,,28,30,27,29,,0.9556,0.1888,"invariant,moderately_conserved"
+Turn,,36,38,35,37,,0.9778,0.1178,"highly_conserved,invariant"
+Beta strand,,39,42,38,41,,1.0,0.0,invariant
+Helix,,51,56,50,55,,0.8778,0.4897,"highly_conserved,invariant,variable"
+Helix,,62,70,61,69,,0.9333,0.2583,"highly_conserved,invariant,moderately_conserved,variable"
+Helix,,72,75,71,74,,1.0,0.0,invariant
+Beta strand,,76,78,75,77,,1.0,0.0,invariant
+Helix,,83,86,82,85,,0.9667,0.1416,"invariant,moderately_conserved"
+Helix,,89,102,88,101,,0.8952,0.4708,"highly_conserved,invariant,moderately_conserved,variable"

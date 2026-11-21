@@ -1,0 +1,25 @@
+feature,classical_pos,uniprot_pos,aln_col,human_residue,vert_class,vert_residue_counts,all17_residue_counts,supports_expected_role,comment
+Heme covalent attachment (thioether),14,15,20,C,invariant,C:15,C:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (binds heme vinyl group).
+Heme covalent attachment (thioether),17,18,23,C,invariant,C:15,C:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (binds heme vinyl group).
+Proximal axial heme ligand,18,19,24,H,invariant,H:15,H:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (binds heme iron).
+Distal axial heme ligand,80,81,86,M,invariant,M:15,M:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (binds heme iron; redox & apoptotic switch).
+Heme pocket H-bond network,52,53,58,N,invariant,N:15,N:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (stabilizes heme pocket).
+Heme pocket H-bond network,59,60,65,W,invariant,W:15,W:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (stabilizes heme via H-bond).
+Heme pocket H-bond network,67,68,73,Y,invariant,Y:15,Y:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (stabilizes heme H-bond network).
+Heme pocket H-bond network,78,79,84,T,invariant,T:15,T:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (stabilizes Met80 loop).
+Close packing around heme,6,7,12,G,invariant,G:15,G:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (glycine tight packing).
+Close packing around heme,30,31,36,P,invariant,P:15,P:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (proline structural turn).
+Close packing around heme,41,42,47,G,invariant,G:15,G:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (glycine close approach to heme).
+Close packing around heme,82,83,88,F,invariant,F:15,F:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (hydrophobic contact with heme).
+Lysine patch (partner docking),13,14,19,K,highly_conserved,"K:14, R:1","K:14, R:3",partly,"Highly Conserved in vertebrates; outgroups show K:14, R:3 (electrostatic docking)."
+Lysine patch (partner docking),27,28,33,K,invariant,K:15,K:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (electrostatic docking).
+Lysine patch (partner docking),72,73,78,K,invariant,K:15,K:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (electrostatic docking / Apaf-1).
+Lysine patch (partner docking),73,74,79,K,invariant,K:15,K:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (electrostatic docking).
+Lysine patch (partner docking),79,80,85,K,invariant,K:15,K:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (electrostatic docking).
+Lysine patch (partner docking),86,87,92,K,highly_conserved,"K:14, R:1","K:16, R:1",partly,"Highly Conserved in vertebrates; outgroups show K:16, R:1 (electrostatic docking)."
+Lysine patch (partner docking),87,88,93,K,invariant,K:15,K:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (electrostatic docking).
+Regulatory phosphosite (human),48,49,54,Y,invariant,Y:15,Y:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (regulation of electron transfer / apoptosis).
+Regulatory phosphosite (human),97,98,103,Y,invariant,Y:15,Y:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (regulation of electron transfer / apoptosis).
+Disease variant (UniProt Natural variant),41,42,47,G,invariant,G:15,G:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (G->S; in THC4; increases the pro-apoptotic function by triggering caspase activation more efficiently than wild-type; does not affect the redox function; dbSNP:rs121918552).
+Disease variant (UniProt Natural variant),55,56,61,K,invariant,K:15,K:17,yes,Strictly invariant across all 15 vertebrates and both outgroups (K->R; in dbSNP:rs11548795).
+Disease variant (UniProt Natural variant),65,66,71,M,moderately_conserved,"M:13, F:1, N:1","M:13, F:2, N:1, S:1",partly,"Variable in vertebrates (M:13, F:1, N:1); M->L."
