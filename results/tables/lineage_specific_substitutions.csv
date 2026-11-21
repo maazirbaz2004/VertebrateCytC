@@ -1,0 +1,8 @@
+aln_col,human_uniprot_pos,classical_pos,group,diagnostic_residue,other_residues_seen
+17,12,11,Primate,I,V
+18,13,12,Primate,M,Q
+34,29,28,Fish,V,T
+56,51,50,Primate,A,"D,E,Q"
+56,51,50,Reptile,E,"A,D,Q"
+89,84,83,Primate,V,A
+95,90,89,Primate,E,"G,N,R,S,T"

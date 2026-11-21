@@ -1,0 +1,14 @@
+region_type,aln_start,aln_end,human_uniprot_start,human_uniprot_end,classical_start,classical_end,length,mean_conservation,sequence_in_human
+conserved,6,8,1,3,,2,3,1.0,MGD
+conserved,10,16,5,11,4.0,10,7,0.9766,EKGKKIF
+conserved,22,28,17,23,16.0,22,7,0.9766,QCHTVEK
+conserved,30,33,25,28,24.0,27,4,0.9796,GKHK
+conserved,35,38,30,33,29.0,32,4,1.0,GPNL
+conserved,40,49,35,44,34.0,43,10,0.9918,GLFGRKTGQA
+conserved,53,55,48,50,47.0,49,3,0.9727,SYT
+conserved,57,59,52,54,51.0,53,3,0.9727,ANK
+conserved,61,63,56,58,55.0,57,3,1.0,KGI
+conserved,72,88,67,83,66.0,82,17,0.9856,EYLENPKKYIPGTKMIF
+conserved,90,94,85,89,84.0,88,5,0.9673,GIKKK
+conserved,99,105,94,100,93.0,99,7,0.9766,DLIAYLK
+variable,109,110,104,105,103.0,104,2,0.7104,NE
